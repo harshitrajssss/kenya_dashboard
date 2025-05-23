@@ -1,0 +1,1081 @@
+Month,Territory,Brand,SKU_Cluster,Sales_KES
+2024-01,Nairobi,Salit Oil,250 ml,2721736
+2024-01,Nairobi,Salit Oil,500 ml,2948152
+2024-01,Nairobi,Salit Oil,1 L,2935278
+2024-01,Nairobi,White Wash,250 ml,3761168
+2024-01,Nairobi,White Wash,500 ml,3097725
+2024-01,Nairobi,White Wash,1 L,1350649
+2024-01,Nairobi,Sawa Soap,250 ml,520189
+2024-01,Nairobi,Sawa Soap,500 ml,2497107
+2024-01,Nairobi,Sawa Soap,1 L,3672446
+2024-01,Nairobi,Kapa,250 ml,3903105
+2024-01,Nairobi,Kapa,500 ml,997834
+2024-01,Nairobi,Kapa,1 L,1022176
+2024-01,Nairobi,Bidco,250 ml,245908
+2024-01,Nairobi,Bidco,500 ml,650922
+2024-01,Nairobi,Bidco,1 L,2263924
+2024-01,Nairobi,Unilever,250 ml,2232532
+2024-01,Nairobi,Unilever,500 ml,1546596
+2024-01,Nairobi,Unilever,1 L,1308826
+2024-01,Coast,Salit Oil,250 ml,3336179
+2024-01,Coast,Salit Oil,500 ml,1894132
+2024-01,Coast,Salit Oil,1 L,3252180
+2024-01,Coast,White Wash,250 ml,3856526
+2024-01,Coast,White Wash,500 ml,1336841
+2024-01,Coast,White Wash,1 L,890679
+2024-01,Coast,Sawa Soap,250 ml,3816307
+2024-01,Coast,Sawa Soap,500 ml,2575841
+2024-01,Coast,Sawa Soap,1 L,1234579
+2024-01,Coast,Kapa,250 ml,2525253
+2024-01,Coast,Kapa,500 ml,2108722
+2024-01,Coast,Kapa,1 L,3631575
+2024-01,Coast,Bidco,250 ml,1098263
+2024-01,Coast,Bidco,500 ml,3966392
+2024-01,Coast,Bidco,1 L,3750569
+2024-01,Coast,Unilever,250 ml,804737
+2024-01,Coast,Unilever,500 ml,741970
+2024-01,Coast,Unilever,1 L,2179311
+2024-01,Central,Salit Oil,250 ml,275151
+2024-01,Central,Salit Oil,500 ml,1265312
+2024-01,Central,Salit Oil,1 L,1796878
+2024-01,Central,White Wash,250 ml,3880555
+2024-01,Central,White Wash,500 ml,3970264
+2024-01,Central,White Wash,1 L,691005
+2024-01,Central,Sawa Soap,250 ml,3577541
+2024-01,Central,Sawa Soap,500 ml,454622
+2024-01,Central,Sawa Soap,1 L,3019571
+2024-01,Central,Kapa,250 ml,3398006
+2024-01,Central,Kapa,500 ml,3574090
+2024-01,Central,Kapa,1 L,971329
+2024-01,Central,Bidco,250 ml,3584441
+2024-01,Central,Bidco,500 ml,552325
+2024-01,Central,Bidco,1 L,2123547
+2024-01,Central,Unilever,250 ml,1931226
+2024-01,Central,Unilever,500 ml,1332123
+2024-01,Central,Unilever,1 L,186245
+2024-01,Lake,Salit Oil,250 ml,3110848
+2024-01,Lake,Salit Oil,500 ml,1408776
+2024-01,Lake,Salit Oil,1 L,2680478
+2024-01,Lake,White Wash,250 ml,1699857
+2024-01,Lake,White Wash,500 ml,1557265
+2024-01,Lake,White Wash,1 L,3556554
+2024-01,Lake,Sawa Soap,250 ml,468420
+2024-01,Lake,Sawa Soap,500 ml,2972807
+2024-01,Lake,Sawa Soap,1 L,3012479
+2024-01,Lake,Kapa,250 ml,1581966
+2024-01,Lake,Kapa,500 ml,1123596
+2024-01,Lake,Kapa,1 L,120697
+2024-01,Lake,Bidco,250 ml,3753571
+2024-01,Lake,Bidco,500 ml,3796152
+2024-01,Lake,Bidco,1 L,1039785
+2024-01,Lake,Unilever,250 ml,224453
+2024-01,Lake,Unilever,500 ml,578755
+2024-01,Lake,Unilever,1 L,363807
+2024-01,Rift Valley,Salit Oil,250 ml,3341339
+2024-01,Rift Valley,Salit Oil,500 ml,3578454
+2024-01,Rift Valley,Salit Oil,1 L,697808
+2024-01,Rift Valley,White Wash,250 ml,3012283
+2024-01,Rift Valley,White Wash,500 ml,799146
+2024-01,Rift Valley,White Wash,1 L,1532115
+2024-01,Rift Valley,Sawa Soap,250 ml,2437592
+2024-01,Rift Valley,Sawa Soap,500 ml,2907714
+2024-01,Rift Valley,Sawa Soap,1 L,3510791
+2024-01,Rift Valley,Kapa,250 ml,274660
+2024-01,Rift Valley,Kapa,500 ml,866095
+2024-01,Rift Valley,Kapa,1 L,1193983
+2024-01,Rift Valley,Bidco,250 ml,1310262
+2024-01,Rift Valley,Bidco,500 ml,3992308
+2024-01,Rift Valley,Bidco,1 L,3131878
+2024-01,Rift Valley,Unilever,250 ml,1349627
+2024-01,Rift Valley,Unilever,500 ml,3890123
+2024-01,Rift Valley,Unilever,1 L,2047297
+2024-02,Nairobi,Salit Oil,250 ml,2052890
+2024-02,Nairobi,Salit Oil,500 ml,1791425
+2024-02,Nairobi,Salit Oil,1 L,661200
+2024-02,Nairobi,White Wash,250 ml,3744052
+2024-02,Nairobi,White Wash,500 ml,154351
+2024-02,Nairobi,White Wash,1 L,779686
+2024-02,Nairobi,Sawa Soap,250 ml,995658
+2024-02,Nairobi,Sawa Soap,500 ml,1189260
+2024-02,Nairobi,Sawa Soap,1 L,614106
+2024-02,Nairobi,Kapa,250 ml,170049
+2024-02,Nairobi,Kapa,500 ml,2742868
+2024-02,Nairobi,Kapa,1 L,3880308
+2024-02,Nairobi,Bidco,250 ml,575146
+2024-02,Nairobi,Bidco,500 ml,1256487
+2024-02,Nairobi,Bidco,1 L,2074686
+2024-02,Nairobi,Unilever,250 ml,3717259
+2024-02,Nairobi,Unilever,500 ml,2807623
+2024-02,Nairobi,Unilever,1 L,3088133
+2024-02,Coast,Salit Oil,250 ml,2366354
+2024-02,Coast,Salit Oil,500 ml,1726439
+2024-02,Coast,Salit Oil,1 L,879125
+2024-02,Coast,White Wash,250 ml,3470826
+2024-02,Coast,White Wash,500 ml,3236085
+2024-02,Coast,White Wash,1 L,197895
+2024-02,Coast,Sawa Soap,250 ml,2890087
+2024-02,Coast,Sawa Soap,500 ml,429113
+2024-02,Coast,Sawa Soap,1 L,2982037
+2024-02,Coast,Kapa,250 ml,3321219
+2024-02,Coast,Kapa,500 ml,611125
+2024-02,Coast,Kapa,1 L,1791959
+2024-02,Coast,Bidco,250 ml,582639
+2024-02,Coast,Bidco,500 ml,2312400
+2024-02,Coast,Bidco,1 L,3717493
+2024-02,Coast,Unilever,250 ml,415391
+2024-02,Coast,Unilever,500 ml,1650554
+2024-02,Coast,Unilever,1 L,3895170
+2024-02,Central,Salit Oil,250 ml,1273699
+2024-02,Central,Salit Oil,500 ml,615645
+2024-02,Central,Salit Oil,1 L,2005477
+2024-02,Central,White Wash,250 ml,2082653
+2024-02,Central,White Wash,500 ml,2685170
+2024-02,Central,White Wash,1 L,1323576
+2024-02,Central,Sawa Soap,250 ml,3826930
+2024-02,Central,Sawa Soap,500 ml,2131988
+2024-02,Central,Sawa Soap,1 L,1217140
+2024-02,Central,Kapa,250 ml,3845109
+2024-02,Central,Kapa,500 ml,3706752
+2024-02,Central,Kapa,1 L,2046742
+2024-02,Central,Bidco,250 ml,196952
+2024-02,Central,Bidco,500 ml,2428050
+2024-02,Central,Bidco,1 L,2265272
+2024-02,Central,Unilever,250 ml,678012
+2024-02,Central,Unilever,500 ml,2572502
+2024-02,Central,Unilever,1 L,3379094
+2024-02,Lake,Salit Oil,250 ml,512999
+2024-02,Lake,Salit Oil,500 ml,2920958
+2024-02,Lake,Salit Oil,1 L,647324
+2024-02,Lake,White Wash,250 ml,3020422
+2024-02,Lake,White Wash,500 ml,1734545
+2024-02,Lake,White Wash,1 L,125393
+2024-02,Lake,Sawa Soap,250 ml,3868304
+2024-02,Lake,Sawa Soap,500 ml,747284
+2024-02,Lake,Sawa Soap,1 L,2424565
+2024-02,Lake,Kapa,250 ml,807726
+2024-02,Lake,Kapa,500 ml,3738790
+2024-02,Lake,Kapa,1 L,2979469
+2024-02,Lake,Bidco,250 ml,3237007
+2024-02,Lake,Bidco,500 ml,1785111
+2024-02,Lake,Bidco,1 L,1922788
+2024-02,Lake,Unilever,250 ml,2573774
+2024-02,Lake,Unilever,500 ml,3160577
+2024-02,Lake,Unilever,1 L,3403220
+2024-02,Rift Valley,Salit Oil,250 ml,169563
+2024-02,Rift Valley,Salit Oil,500 ml,2687889
+2024-02,Rift Valley,Salit Oil,1 L,525661
+2024-02,Rift Valley,White Wash,250 ml,1222933
+2024-02,Rift Valley,White Wash,500 ml,3334771
+2024-02,Rift Valley,White Wash,1 L,1077001
+2024-02,Rift Valley,Sawa Soap,250 ml,3207586
+2024-02,Rift Valley,Sawa Soap,500 ml,1905730
+2024-02,Rift Valley,Sawa Soap,1 L,1007298
+2024-02,Rift Valley,Kapa,250 ml,1403552
+2024-02,Rift Valley,Kapa,500 ml,2170001
+2024-02,Rift Valley,Kapa,1 L,3084073
+2024-02,Rift Valley,Bidco,250 ml,2463461
+2024-02,Rift Valley,Bidco,500 ml,3739572
+2024-02,Rift Valley,Bidco,1 L,3484181
+2024-02,Rift Valley,Unilever,250 ml,3038078
+2024-02,Rift Valley,Unilever,500 ml,2452117
+2024-02,Rift Valley,Unilever,1 L,1230437
+2024-03,Nairobi,Salit Oil,250 ml,1709029
+2024-03,Nairobi,Salit Oil,500 ml,563687
+2024-03,Nairobi,Salit Oil,1 L,1559317
+2024-03,Nairobi,White Wash,250 ml,3713241
+2024-03,Nairobi,White Wash,500 ml,1760940
+2024-03,Nairobi,White Wash,1 L,543542
+2024-03,Nairobi,Sawa Soap,250 ml,2642530
+2024-03,Nairobi,Sawa Soap,500 ml,3854198
+2024-03,Nairobi,Sawa Soap,1 L,3483213
+2024-03,Nairobi,Kapa,250 ml,1168898
+2024-03,Nairobi,Kapa,500 ml,1870197
+2024-03,Nairobi,Kapa,1 L,2170964
+2024-03,Nairobi,Bidco,250 ml,1066574
+2024-03,Nairobi,Bidco,500 ml,1147898
+2024-03,Nairobi,Bidco,1 L,1022983
+2024-03,Nairobi,Unilever,250 ml,3978867
+2024-03,Nairobi,Unilever,500 ml,3009455
+2024-03,Nairobi,Unilever,1 L,3379339
+2024-03,Coast,Salit Oil,250 ml,3284618
+2024-03,Coast,Salit Oil,500 ml,3840659
+2024-03,Coast,Salit Oil,1 L,510584
+2024-03,Coast,White Wash,250 ml,3538366
+2024-03,Coast,White Wash,500 ml,359579
+2024-03,Coast,White Wash,1 L,1954141
+2024-03,Coast,Sawa Soap,250 ml,2418291
+2024-03,Coast,Sawa Soap,500 ml,1495658
+2024-03,Coast,Sawa Soap,1 L,670075
+2024-03,Coast,Kapa,250 ml,849975
+2024-03,Coast,Kapa,500 ml,3316190
+2024-03,Coast,Kapa,1 L,1343023
+2024-03,Coast,Bidco,250 ml,1310305
+2024-03,Coast,Bidco,500 ml,3701111
+2024-03,Coast,Bidco,1 L,661100
+2024-03,Coast,Unilever,250 ml,3669540
+2024-03,Coast,Unilever,500 ml,3691784
+2024-03,Coast,Unilever,1 L,2434382
+2024-03,Central,Salit Oil,250 ml,745573
+2024-03,Central,Salit Oil,500 ml,707857
+2024-03,Central,Salit Oil,1 L,1210408
+2024-03,Central,White Wash,250 ml,2351921
+2024-03,Central,White Wash,500 ml,699092
+2024-03,Central,White Wash,1 L,1877065
+2024-03,Central,Sawa Soap,250 ml,550411
+2024-03,Central,Sawa Soap,500 ml,2207108
+2024-03,Central,Sawa Soap,1 L,182477
+2024-03,Central,Kapa,250 ml,2865241
+2024-03,Central,Kapa,500 ml,316042
+2024-03,Central,Kapa,1 L,859805
+2024-03,Central,Bidco,250 ml,781101
+2024-03,Central,Bidco,500 ml,3340876
+2024-03,Central,Bidco,1 L,308189
+2024-03,Central,Unilever,250 ml,1774112
+2024-03,Central,Unilever,500 ml,2405460
+2024-03,Central,Unilever,1 L,2112382
+2024-03,Lake,Salit Oil,250 ml,2754786
+2024-03,Lake,Salit Oil,500 ml,3232095
+2024-03,Lake,Salit Oil,1 L,1635158
+2024-03,Lake,White Wash,250 ml,3330049
+2024-03,Lake,White Wash,500 ml,1340165
+2024-03,Lake,White Wash,1 L,3939248
+2024-03,Lake,Sawa Soap,250 ml,2067652
+2024-03,Lake,Sawa Soap,500 ml,2970452
+2024-03,Lake,Sawa Soap,1 L,3512519
+2024-03,Lake,Kapa,250 ml,3191339
+2024-03,Lake,Kapa,500 ml,3419413
+2024-03,Lake,Kapa,1 L,2192402
+2024-03,Lake,Bidco,250 ml,269552
+2024-03,Lake,Bidco,500 ml,2023025
+2024-03,Lake,Bidco,1 L,807843
+2024-03,Lake,Unilever,250 ml,3567554
+2024-03,Lake,Unilever,500 ml,1023304
+2024-03,Lake,Unilever,1 L,989472
+2024-03,Rift Valley,Salit Oil,250 ml,1072611
+2024-03,Rift Valley,Salit Oil,500 ml,2606008
+2024-03,Rift Valley,Salit Oil,1 L,2327807
+2024-03,Rift Valley,White Wash,250 ml,3800479
+2024-03,Rift Valley,White Wash,500 ml,1723423
+2024-03,Rift Valley,White Wash,1 L,1200884
+2024-03,Rift Valley,Sawa Soap,250 ml,292091
+2024-03,Rift Valley,Sawa Soap,500 ml,127596
+2024-03,Rift Valley,Sawa Soap,1 L,1557095
+2024-03,Rift Valley,Kapa,250 ml,3710687
+2024-03,Rift Valley,Kapa,500 ml,2142636
+2024-03,Rift Valley,Kapa,1 L,3584835
+2024-03,Rift Valley,Bidco,250 ml,496520
+2024-03,Rift Valley,Bidco,500 ml,463951
+2024-03,Rift Valley,Bidco,1 L,3350488
+2024-03,Rift Valley,Unilever,250 ml,516293
+2024-03,Rift Valley,Unilever,500 ml,302651
+2024-03,Rift Valley,Unilever,1 L,1675961
+2024-04,Nairobi,Salit Oil,250 ml,3706883
+2024-04,Nairobi,Salit Oil,500 ml,2788595
+2024-04,Nairobi,Salit Oil,1 L,486541
+2024-04,Nairobi,White Wash,250 ml,3364811
+2024-04,Nairobi,White Wash,500 ml,3389942
+2024-04,Nairobi,White Wash,1 L,3222716
+2024-04,Nairobi,Sawa Soap,250 ml,3620347
+2024-04,Nairobi,Sawa Soap,500 ml,1035524
+2024-04,Nairobi,Sawa Soap,1 L,3920325
+2024-04,Nairobi,Kapa,250 ml,1350715
+2024-04,Nairobi,Kapa,500 ml,3227900
+2024-04,Nairobi,Kapa,1 L,2359521
+2024-04,Nairobi,Bidco,250 ml,3139962
+2024-04,Nairobi,Bidco,500 ml,2548495
+2024-04,Nairobi,Bidco,1 L,2605684
+2024-04,Nairobi,Unilever,250 ml,2503507
+2024-04,Nairobi,Unilever,500 ml,3138085
+2024-04,Nairobi,Unilever,1 L,2982267
+2024-04,Coast,Salit Oil,250 ml,624753
+2024-04,Coast,Salit Oil,500 ml,3321614
+2024-04,Coast,Salit Oil,1 L,2190665
+2024-04,Coast,White Wash,250 ml,1360025
+2024-04,Coast,White Wash,500 ml,2105469
+2024-04,Coast,White Wash,1 L,3871235
+2024-04,Coast,Sawa Soap,250 ml,3444531
+2024-04,Coast,Sawa Soap,500 ml,3351424
+2024-04,Coast,Sawa Soap,1 L,1904917
+2024-04,Coast,Kapa,250 ml,3158137
+2024-04,Coast,Kapa,500 ml,1601849
+2024-04,Coast,Kapa,1 L,2776045
+2024-04,Coast,Bidco,250 ml,2594296
+2024-04,Coast,Bidco,500 ml,1074214
+2024-04,Coast,Bidco,1 L,1139206
+2024-04,Coast,Unilever,250 ml,338419
+2024-04,Coast,Unilever,500 ml,645096
+2024-04,Coast,Unilever,1 L,1791112
+2024-04,Central,Salit Oil,250 ml,1963721
+2024-04,Central,Salit Oil,500 ml,743970
+2024-04,Central,Salit Oil,1 L,1725868
+2024-04,Central,White Wash,250 ml,2456292
+2024-04,Central,White Wash,500 ml,1007022
+2024-04,Central,White Wash,1 L,1419123
+2024-04,Central,Sawa Soap,250 ml,1533296
+2024-04,Central,Sawa Soap,500 ml,2069710
+2024-04,Central,Sawa Soap,1 L,1528930
+2024-04,Central,Kapa,250 ml,2974084
+2024-04,Central,Kapa,500 ml,1377232
+2024-04,Central,Kapa,1 L,1792197
+2024-04,Central,Bidco,250 ml,1579909
+2024-04,Central,Bidco,500 ml,813371
+2024-04,Central,Bidco,1 L,2774399
+2024-04,Central,Unilever,250 ml,1018240
+2024-04,Central,Unilever,500 ml,1257818
+2024-04,Central,Unilever,1 L,3191732
+2024-04,Lake,Salit Oil,250 ml,3800545
+2024-04,Lake,Salit Oil,500 ml,2716288
+2024-04,Lake,Salit Oil,1 L,3673757
+2024-04,Lake,White Wash,250 ml,3431343
+2024-04,Lake,White Wash,500 ml,1975550
+2024-04,Lake,White Wash,1 L,3104131
+2024-04,Lake,Sawa Soap,250 ml,1380608
+2024-04,Lake,Sawa Soap,500 ml,1895938
+2024-04,Lake,Sawa Soap,1 L,2188195
+2024-04,Lake,Kapa,250 ml,3845922
+2024-04,Lake,Kapa,500 ml,3409385
+2024-04,Lake,Kapa,1 L,2008086
+2024-04,Lake,Bidco,250 ml,2645090
+2024-04,Lake,Bidco,500 ml,889190
+2024-04,Lake,Bidco,1 L,3237128
+2024-04,Lake,Unilever,250 ml,2256848
+2024-04,Lake,Unilever,500 ml,2177616
+2024-04,Lake,Unilever,1 L,3088505
+2024-04,Rift Valley,Salit Oil,250 ml,2568378
+2024-04,Rift Valley,Salit Oil,500 ml,382621
+2024-04,Rift Valley,Salit Oil,1 L,1223806
+2024-04,Rift Valley,White Wash,250 ml,789203
+2024-04,Rift Valley,White Wash,500 ml,2966083
+2024-04,Rift Valley,White Wash,1 L,237073
+2024-04,Rift Valley,Sawa Soap,250 ml,889377
+2024-04,Rift Valley,Sawa Soap,500 ml,2430035
+2024-04,Rift Valley,Sawa Soap,1 L,2809712
+2024-04,Rift Valley,Kapa,250 ml,2062889
+2024-04,Rift Valley,Kapa,500 ml,3456804
+2024-04,Rift Valley,Kapa,1 L,3683866
+2024-04,Rift Valley,Bidco,250 ml,615201
+2024-04,Rift Valley,Bidco,500 ml,3814793
+2024-04,Rift Valley,Bidco,1 L,2496080
+2024-04,Rift Valley,Unilever,250 ml,2581254
+2024-04,Rift Valley,Unilever,500 ml,470873
+2024-04,Rift Valley,Unilever,1 L,2525300
+2024-05,Nairobi,Salit Oil,250 ml,2930290
+2024-05,Nairobi,Salit Oil,500 ml,2365085
+2024-05,Nairobi,Salit Oil,1 L,429523
+2024-05,Nairobi,White Wash,250 ml,2140587
+2024-05,Nairobi,White Wash,500 ml,3750165
+2024-05,Nairobi,White Wash,1 L,2921324
+2024-05,Nairobi,Sawa Soap,250 ml,635890
+2024-05,Nairobi,Sawa Soap,500 ml,3843760
+2024-05,Nairobi,Sawa Soap,1 L,3839632
+2024-05,Nairobi,Kapa,250 ml,760642
+2024-05,Nairobi,Kapa,500 ml,3223448
+2024-05,Nairobi,Kapa,1 L,1686196
+2024-05,Nairobi,Bidco,250 ml,2415359
+2024-05,Nairobi,Bidco,500 ml,1836226
+2024-05,Nairobi,Bidco,1 L,3152234
+2024-05,Nairobi,Unilever,250 ml,3986973
+2024-05,Nairobi,Unilever,500 ml,3200947
+2024-05,Nairobi,Unilever,1 L,3732348
+2024-05,Coast,Salit Oil,250 ml,3789505
+2024-05,Coast,Salit Oil,500 ml,451411
+2024-05,Coast,Salit Oil,1 L,1088195
+2024-05,Coast,White Wash,250 ml,2915240
+2024-05,Coast,White Wash,500 ml,2401295
+2024-05,Coast,White Wash,1 L,295570
+2024-05,Coast,Sawa Soap,250 ml,470691
+2024-05,Coast,Sawa Soap,500 ml,2130134
+2024-05,Coast,Sawa Soap,1 L,2503046
+2024-05,Coast,Kapa,250 ml,754105
+2024-05,Coast,Kapa,500 ml,768036
+2024-05,Coast,Kapa,1 L,604426
+2024-05,Coast,Bidco,250 ml,2303307
+2024-05,Coast,Bidco,500 ml,130629
+2024-05,Coast,Bidco,1 L,2332479
+2024-05,Coast,Unilever,250 ml,1956121
+2024-05,Coast,Unilever,500 ml,1917342
+2024-05,Coast,Unilever,1 L,2749177
+2024-05,Central,Salit Oil,250 ml,2138263
+2024-05,Central,Salit Oil,500 ml,2938220
+2024-05,Central,Salit Oil,1 L,3079301
+2024-05,Central,White Wash,250 ml,3688459
+2024-05,Central,White Wash,500 ml,3217054
+2024-05,Central,White Wash,1 L,2119054
+2024-05,Central,Sawa Soap,250 ml,2019397
+2024-05,Central,Sawa Soap,500 ml,1019263
+2024-05,Central,Sawa Soap,1 L,2438414
+2024-05,Central,Kapa,250 ml,642628
+2024-05,Central,Kapa,500 ml,3731821
+2024-05,Central,Kapa,1 L,3395672
+2024-05,Central,Bidco,250 ml,566960
+2024-05,Central,Bidco,500 ml,3165227
+2024-05,Central,Bidco,1 L,556703
+2024-05,Central,Unilever,250 ml,2912778
+2024-05,Central,Unilever,500 ml,442065
+2024-05,Central,Unilever,1 L,2003954
+2024-05,Lake,Salit Oil,250 ml,2665666
+2024-05,Lake,Salit Oil,500 ml,2942362
+2024-05,Lake,Salit Oil,1 L,1732572
+2024-05,Lake,White Wash,250 ml,3694331
+2024-05,Lake,White Wash,500 ml,3119853
+2024-05,Lake,White Wash,1 L,912232
+2024-05,Lake,Sawa Soap,250 ml,2717802
+2024-05,Lake,Sawa Soap,500 ml,2949084
+2024-05,Lake,Sawa Soap,1 L,1401187
+2024-05,Lake,Kapa,250 ml,2979102
+2024-05,Lake,Kapa,500 ml,3603629
+2024-05,Lake,Kapa,1 L,3286745
+2024-05,Lake,Bidco,250 ml,3073875
+2024-05,Lake,Bidco,500 ml,2574540
+2024-05,Lake,Bidco,1 L,1155086
+2024-05,Lake,Unilever,250 ml,3201369
+2024-05,Lake,Unilever,500 ml,1520348
+2024-05,Lake,Unilever,1 L,2175567
+2024-05,Rift Valley,Salit Oil,250 ml,1326315
+2024-05,Rift Valley,Salit Oil,500 ml,1320766
+2024-05,Rift Valley,Salit Oil,1 L,714685
+2024-05,Rift Valley,White Wash,250 ml,3849060
+2024-05,Rift Valley,White Wash,500 ml,676355
+2024-05,Rift Valley,White Wash,1 L,436409
+2024-05,Rift Valley,Sawa Soap,250 ml,3750897
+2024-05,Rift Valley,Sawa Soap,500 ml,2264551
+2024-05,Rift Valley,Sawa Soap,1 L,1807825
+2024-05,Rift Valley,Kapa,250 ml,2976216
+2024-05,Rift Valley,Kapa,500 ml,1594947
+2024-05,Rift Valley,Kapa,1 L,598894
+2024-05,Rift Valley,Bidco,250 ml,2945774
+2024-05,Rift Valley,Bidco,500 ml,786398
+2024-05,Rift Valley,Bidco,1 L,2256672
+2024-05,Rift Valley,Unilever,250 ml,3801357
+2024-05,Rift Valley,Unilever,500 ml,3750945
+2024-05,Rift Valley,Unilever,1 L,1507053
+2024-06,Nairobi,Salit Oil,250 ml,3143175
+2024-06,Nairobi,Salit Oil,500 ml,2489435
+2024-06,Nairobi,Salit Oil,1 L,1969541
+2024-06,Nairobi,White Wash,250 ml,645719
+2024-06,Nairobi,White Wash,500 ml,1567801
+2024-06,Nairobi,White Wash,1 L,2642480
+2024-06,Nairobi,Sawa Soap,250 ml,3947863
+2024-06,Nairobi,Sawa Soap,500 ml,119073
+2024-06,Nairobi,Sawa Soap,1 L,2899264
+2024-06,Nairobi,Kapa,250 ml,3400713
+2024-06,Nairobi,Kapa,500 ml,3809659
+2024-06,Nairobi,Kapa,1 L,1752834
+2024-06,Nairobi,Bidco,250 ml,562066
+2024-06,Nairobi,Bidco,500 ml,1156772
+2024-06,Nairobi,Bidco,1 L,3417081
+2024-06,Nairobi,Unilever,250 ml,3523946
+2024-06,Nairobi,Unilever,500 ml,2584588
+2024-06,Nairobi,Unilever,1 L,578687
+2024-06,Coast,Salit Oil,250 ml,575494
+2024-06,Coast,Salit Oil,500 ml,1964871
+2024-06,Coast,Salit Oil,1 L,2394206
+2024-06,Coast,White Wash,250 ml,226276
+2024-06,Coast,White Wash,500 ml,2775775
+2024-06,Coast,White Wash,1 L,2223589
+2024-06,Coast,Sawa Soap,250 ml,147980
+2024-06,Coast,Sawa Soap,500 ml,473142
+2024-06,Coast,Sawa Soap,1 L,1871840
+2024-06,Coast,Kapa,250 ml,2918083
+2024-06,Coast,Kapa,500 ml,3319058
+2024-06,Coast,Kapa,1 L,1782076
+2024-06,Coast,Bidco,250 ml,1251900
+2024-06,Coast,Bidco,500 ml,3876410
+2024-06,Coast,Bidco,1 L,1888337
+2024-06,Coast,Unilever,250 ml,1330019
+2024-06,Coast,Unilever,500 ml,1825025
+2024-06,Coast,Unilever,1 L,147157
+2024-06,Central,Salit Oil,250 ml,1277516
+2024-06,Central,Salit Oil,500 ml,2110662
+2024-06,Central,Salit Oil,1 L,3681923
+2024-06,Central,White Wash,250 ml,2979081
+2024-06,Central,White Wash,500 ml,3147046
+2024-06,Central,White Wash,1 L,2225116
+2024-06,Central,Sawa Soap,250 ml,531294
+2024-06,Central,Sawa Soap,500 ml,1624613
+2024-06,Central,Sawa Soap,1 L,3988435
+2024-06,Central,Kapa,250 ml,272266
+2024-06,Central,Kapa,500 ml,3528880
+2024-06,Central,Kapa,1 L,2769533
+2024-06,Central,Bidco,250 ml,1207242
+2024-06,Central,Bidco,500 ml,3134155
+2024-06,Central,Bidco,1 L,3363896
+2024-06,Central,Unilever,250 ml,268554
+2024-06,Central,Unilever,500 ml,515036
+2024-06,Central,Unilever,1 L,2696423
+2024-06,Lake,Salit Oil,250 ml,3996508
+2024-06,Lake,Salit Oil,500 ml,193469
+2024-06,Lake,Salit Oil,1 L,2696170
+2024-06,Lake,White Wash,250 ml,632445
+2024-06,Lake,White Wash,500 ml,2635487
+2024-06,Lake,White Wash,1 L,2530927
+2024-06,Lake,Sawa Soap,250 ml,452718
+2024-06,Lake,Sawa Soap,500 ml,2754839
+2024-06,Lake,Sawa Soap,1 L,3598430
+2024-06,Lake,Kapa,250 ml,3467430
+2024-06,Lake,Kapa,500 ml,213098
+2024-06,Lake,Kapa,1 L,1059074
+2024-06,Lake,Bidco,250 ml,1039229
+2024-06,Lake,Bidco,500 ml,1867840
+2024-06,Lake,Bidco,1 L,657785
+2024-06,Lake,Unilever,250 ml,3431951
+2024-06,Lake,Unilever,500 ml,3129394
+2024-06,Lake,Unilever,1 L,3252564
+2024-06,Rift Valley,Salit Oil,250 ml,872996
+2024-06,Rift Valley,Salit Oil,500 ml,156833
+2024-06,Rift Valley,Salit Oil,1 L,3651489
+2024-06,Rift Valley,White Wash,250 ml,1226742
+2024-06,Rift Valley,White Wash,500 ml,2659449
+2024-06,Rift Valley,White Wash,1 L,3646802
+2024-06,Rift Valley,Sawa Soap,250 ml,241034
+2024-06,Rift Valley,Sawa Soap,500 ml,121346
+2024-06,Rift Valley,Sawa Soap,1 L,121176
+2024-06,Rift Valley,Kapa,250 ml,709670
+2024-06,Rift Valley,Kapa,500 ml,301465
+2024-06,Rift Valley,Kapa,1 L,3297925
+2024-06,Rift Valley,Bidco,250 ml,2463108
+2024-06,Rift Valley,Bidco,500 ml,3922182
+2024-06,Rift Valley,Bidco,1 L,3225779
+2024-06,Rift Valley,Unilever,250 ml,3856432
+2024-06,Rift Valley,Unilever,500 ml,1030355
+2024-06,Rift Valley,Unilever,1 L,1222418
+2024-07,Nairobi,Salit Oil,250 ml,3412694
+2024-07,Nairobi,Salit Oil,500 ml,1055042
+2024-07,Nairobi,Salit Oil,1 L,323204
+2024-07,Nairobi,White Wash,250 ml,2709607
+2024-07,Nairobi,White Wash,500 ml,3223759
+2024-07,Nairobi,White Wash,1 L,3875965
+2024-07,Nairobi,Sawa Soap,250 ml,3718402
+2024-07,Nairobi,Sawa Soap,500 ml,568899
+2024-07,Nairobi,Sawa Soap,1 L,3111222
+2024-07,Nairobi,Kapa,250 ml,3399898
+2024-07,Nairobi,Kapa,500 ml,2822671
+2024-07,Nairobi,Kapa,1 L,3297218
+2024-07,Nairobi,Bidco,250 ml,3368122
+2024-07,Nairobi,Bidco,500 ml,1841545
+2024-07,Nairobi,Bidco,1 L,256590
+2024-07,Nairobi,Unilever,250 ml,1879158
+2024-07,Nairobi,Unilever,500 ml,886950
+2024-07,Nairobi,Unilever,1 L,543544
+2024-07,Coast,Salit Oil,250 ml,587202
+2024-07,Coast,Salit Oil,500 ml,2819758
+2024-07,Coast,Salit Oil,1 L,2067670
+2024-07,Coast,White Wash,250 ml,2205370
+2024-07,Coast,White Wash,500 ml,3006233
+2024-07,Coast,White Wash,1 L,2238244
+2024-07,Coast,Sawa Soap,250 ml,2557046
+2024-07,Coast,Sawa Soap,500 ml,435495
+2024-07,Coast,Sawa Soap,1 L,3419411
+2024-07,Coast,Kapa,250 ml,1850244
+2024-07,Coast,Kapa,500 ml,705330
+2024-07,Coast,Kapa,1 L,3271981
+2024-07,Coast,Bidco,250 ml,2965022
+2024-07,Coast,Bidco,500 ml,306801
+2024-07,Coast,Bidco,1 L,852861
+2024-07,Coast,Unilever,250 ml,161422
+2024-07,Coast,Unilever,500 ml,1155959
+2024-07,Coast,Unilever,1 L,489923
+2024-07,Central,Salit Oil,250 ml,2868628
+2024-07,Central,Salit Oil,500 ml,2137957
+2024-07,Central,Salit Oil,1 L,3922798
+2024-07,Central,White Wash,250 ml,3022753
+2024-07,Central,White Wash,500 ml,2485020
+2024-07,Central,White Wash,1 L,2086322
+2024-07,Central,Sawa Soap,250 ml,312551
+2024-07,Central,Sawa Soap,500 ml,373784
+2024-07,Central,Sawa Soap,1 L,2503604
+2024-07,Central,Kapa,250 ml,117078
+2024-07,Central,Kapa,500 ml,265167
+2024-07,Central,Kapa,1 L,954629
+2024-07,Central,Bidco,250 ml,3548168
+2024-07,Central,Bidco,500 ml,1889827
+2024-07,Central,Bidco,1 L,2867355
+2024-07,Central,Unilever,250 ml,1705092
+2024-07,Central,Unilever,500 ml,775198
+2024-07,Central,Unilever,1 L,1547510
+2024-07,Lake,Salit Oil,250 ml,457711
+2024-07,Lake,Salit Oil,500 ml,3103987
+2024-07,Lake,Salit Oil,1 L,815779
+2024-07,Lake,White Wash,250 ml,1567869
+2024-07,Lake,White Wash,500 ml,3922105
+2024-07,Lake,White Wash,1 L,2408656
+2024-07,Lake,Sawa Soap,250 ml,1888386
+2024-07,Lake,Sawa Soap,500 ml,2217749
+2024-07,Lake,Sawa Soap,1 L,3157915
+2024-07,Lake,Kapa,250 ml,1092478
+2024-07,Lake,Kapa,500 ml,2581992
+2024-07,Lake,Kapa,1 L,3503496
+2024-07,Lake,Bidco,250 ml,2332411
+2024-07,Lake,Bidco,500 ml,1841506
+2024-07,Lake,Bidco,1 L,666007
+2024-07,Lake,Unilever,250 ml,1068329
+2024-07,Lake,Unilever,500 ml,3789495
+2024-07,Lake,Unilever,1 L,2210913
+2024-07,Rift Valley,Salit Oil,250 ml,1275236
+2024-07,Rift Valley,Salit Oil,500 ml,1731636
+2024-07,Rift Valley,Salit Oil,1 L,2354267
+2024-07,Rift Valley,White Wash,250 ml,2196433
+2024-07,Rift Valley,White Wash,500 ml,2829126
+2024-07,Rift Valley,White Wash,1 L,1104221
+2024-07,Rift Valley,Sawa Soap,250 ml,2632009
+2024-07,Rift Valley,Sawa Soap,500 ml,1826441
+2024-07,Rift Valley,Sawa Soap,1 L,3768318
+2024-07,Rift Valley,Kapa,250 ml,715898
+2024-07,Rift Valley,Kapa,500 ml,678912
+2024-07,Rift Valley,Kapa,1 L,1900467
+2024-07,Rift Valley,Bidco,250 ml,2082575
+2024-07,Rift Valley,Bidco,500 ml,2794413
+2024-07,Rift Valley,Bidco,1 L,1675734
+2024-07,Rift Valley,Unilever,250 ml,3663491
+2024-07,Rift Valley,Unilever,500 ml,1949258
+2024-07,Rift Valley,Unilever,1 L,604411
+2024-08,Nairobi,Salit Oil,250 ml,564948
+2024-08,Nairobi,Salit Oil,500 ml,3896282
+2024-08,Nairobi,Salit Oil,1 L,622968
+2024-08,Nairobi,White Wash,250 ml,3796619
+2024-08,Nairobi,White Wash,500 ml,1184494
+2024-08,Nairobi,White Wash,1 L,464296
+2024-08,Nairobi,Sawa Soap,250 ml,1288347
+2024-08,Nairobi,Sawa Soap,500 ml,2497322
+2024-08,Nairobi,Sawa Soap,1 L,1768822
+2024-08,Nairobi,Kapa,250 ml,3163763
+2024-08,Nairobi,Kapa,500 ml,2482851
+2024-08,Nairobi,Kapa,1 L,1663057
+2024-08,Nairobi,Bidco,250 ml,2575053
+2024-08,Nairobi,Bidco,500 ml,3888704
+2024-08,Nairobi,Bidco,1 L,1706062
+2024-08,Nairobi,Unilever,250 ml,698430
+2024-08,Nairobi,Unilever,500 ml,1694254
+2024-08,Nairobi,Unilever,1 L,3376448
+2024-08,Coast,Salit Oil,250 ml,948751
+2024-08,Coast,Salit Oil,500 ml,3801656
+2024-08,Coast,Salit Oil,1 L,2394394
+2024-08,Coast,White Wash,250 ml,2446136
+2024-08,Coast,White Wash,500 ml,1336459
+2024-08,Coast,White Wash,1 L,3689782
+2024-08,Coast,Sawa Soap,250 ml,240633
+2024-08,Coast,Sawa Soap,500 ml,1264818
+2024-08,Coast,Sawa Soap,1 L,1731760
+2024-08,Coast,Kapa,250 ml,1961374
+2024-08,Coast,Kapa,500 ml,1949117
+2024-08,Coast,Kapa,1 L,676905
+2024-08,Coast,Bidco,250 ml,979812
+2024-08,Coast,Bidco,500 ml,471444
+2024-08,Coast,Bidco,1 L,2332585
+2024-08,Coast,Unilever,250 ml,1468387
+2024-08,Coast,Unilever,500 ml,2306510
+2024-08,Coast,Unilever,1 L,2399885
+2024-08,Central,Salit Oil,250 ml,2837808
+2024-08,Central,Salit Oil,500 ml,2233438
+2024-08,Central,Salit Oil,1 L,2626999
+2024-08,Central,White Wash,250 ml,2389885
+2024-08,Central,White Wash,500 ml,2644488
+2024-08,Central,White Wash,1 L,2504911
+2024-08,Central,Sawa Soap,250 ml,1333235
+2024-08,Central,Sawa Soap,500 ml,1060509
+2024-08,Central,Sawa Soap,1 L,3170985
+2024-08,Central,Kapa,250 ml,1436537
+2024-08,Central,Kapa,500 ml,2241663
+2024-08,Central,Kapa,1 L,868195
+2024-08,Central,Bidco,250 ml,1782530
+2024-08,Central,Bidco,500 ml,2165688
+2024-08,Central,Bidco,1 L,2541448
+2024-08,Central,Unilever,250 ml,2152868
+2024-08,Central,Unilever,500 ml,1506563
+2024-08,Central,Unilever,1 L,3850908
+2024-08,Lake,Salit Oil,250 ml,2099683
+2024-08,Lake,Salit Oil,500 ml,3252371
+2024-08,Lake,Salit Oil,1 L,2973152
+2024-08,Lake,White Wash,250 ml,2277437
+2024-08,Lake,White Wash,500 ml,3556971
+2024-08,Lake,White Wash,1 L,600244
+2024-08,Lake,Sawa Soap,250 ml,3692123
+2024-08,Lake,Sawa Soap,500 ml,3415881
+2024-08,Lake,Sawa Soap,1 L,2064168
+2024-08,Lake,Kapa,250 ml,2960228
+2024-08,Lake,Kapa,500 ml,2129072
+2024-08,Lake,Kapa,1 L,1148181
+2024-08,Lake,Bidco,250 ml,3219494
+2024-08,Lake,Bidco,500 ml,1059095
+2024-08,Lake,Bidco,1 L,1326357
+2024-08,Lake,Unilever,250 ml,2125237
+2024-08,Lake,Unilever,500 ml,3365791
+2024-08,Lake,Unilever,1 L,1597311
+2024-08,Rift Valley,Salit Oil,250 ml,2027152
+2024-08,Rift Valley,Salit Oil,500 ml,262494
+2024-08,Rift Valley,Salit Oil,1 L,551841
+2024-08,Rift Valley,White Wash,250 ml,318194
+2024-08,Rift Valley,White Wash,500 ml,381030
+2024-08,Rift Valley,White Wash,1 L,3487230
+2024-08,Rift Valley,Sawa Soap,250 ml,3383773
+2024-08,Rift Valley,Sawa Soap,500 ml,3305356
+2024-08,Rift Valley,Sawa Soap,1 L,316714
+2024-08,Rift Valley,Kapa,250 ml,402815
+2024-08,Rift Valley,Kapa,500 ml,1194384
+2024-08,Rift Valley,Kapa,1 L,2304650
+2024-08,Rift Valley,Bidco,250 ml,1403107
+2024-08,Rift Valley,Bidco,500 ml,2001484
+2024-08,Rift Valley,Bidco,1 L,774678
+2024-08,Rift Valley,Unilever,250 ml,2950034
+2024-08,Rift Valley,Unilever,500 ml,1324184
+2024-08,Rift Valley,Unilever,1 L,359509
+2024-09,Nairobi,Salit Oil,250 ml,2996501
+2024-09,Nairobi,Salit Oil,500 ml,3620874
+2024-09,Nairobi,Salit Oil,1 L,157263
+2024-09,Nairobi,White Wash,250 ml,1803024
+2024-09,Nairobi,White Wash,500 ml,3325976
+2024-09,Nairobi,White Wash,1 L,2854042
+2024-09,Nairobi,Sawa Soap,250 ml,3440537
+2024-09,Nairobi,Sawa Soap,500 ml,1719319
+2024-09,Nairobi,Sawa Soap,1 L,1551820
+2024-09,Nairobi,Kapa,250 ml,2865786
+2024-09,Nairobi,Kapa,500 ml,699090
+2024-09,Nairobi,Kapa,1 L,1033743
+2024-09,Nairobi,Bidco,250 ml,2443277
+2024-09,Nairobi,Bidco,500 ml,2706973
+2024-09,Nairobi,Bidco,1 L,566722
+2024-09,Nairobi,Unilever,250 ml,2082409
+2024-09,Nairobi,Unilever,500 ml,1523185
+2024-09,Nairobi,Unilever,1 L,2056803
+2024-09,Coast,Salit Oil,250 ml,3837873
+2024-09,Coast,Salit Oil,500 ml,398780
+2024-09,Coast,Salit Oil,1 L,3982311
+2024-09,Coast,White Wash,250 ml,1853356
+2024-09,Coast,White Wash,500 ml,3111209
+2024-09,Coast,White Wash,1 L,1755435
+2024-09,Coast,Sawa Soap,250 ml,1312749
+2024-09,Coast,Sawa Soap,500 ml,3105338
+2024-09,Coast,Sawa Soap,1 L,2781893
+2024-09,Coast,Kapa,250 ml,661826
+2024-09,Coast,Kapa,500 ml,2851084
+2024-09,Coast,Kapa,1 L,3037001
+2024-09,Coast,Bidco,250 ml,1612582
+2024-09,Coast,Bidco,500 ml,3710033
+2024-09,Coast,Bidco,1 L,2599465
+2024-09,Coast,Unilever,250 ml,1401150
+2024-09,Coast,Unilever,500 ml,141837
+2024-09,Coast,Unilever,1 L,2732345
+2024-09,Central,Salit Oil,250 ml,915324
+2024-09,Central,Salit Oil,500 ml,3050453
+2024-09,Central,Salit Oil,1 L,2147844
+2024-09,Central,White Wash,250 ml,1920233
+2024-09,Central,White Wash,500 ml,738630
+2024-09,Central,White Wash,1 L,2874870
+2024-09,Central,Sawa Soap,250 ml,747036
+2024-09,Central,Sawa Soap,500 ml,1729239
+2024-09,Central,Sawa Soap,1 L,3361586
+2024-09,Central,Kapa,250 ml,3689426
+2024-09,Central,Kapa,500 ml,3957618
+2024-09,Central,Kapa,1 L,3836246
+2024-09,Central,Bidco,250 ml,2268280
+2024-09,Central,Bidco,500 ml,881874
+2024-09,Central,Bidco,1 L,3372371
+2024-09,Central,Unilever,250 ml,3226359
+2024-09,Central,Unilever,500 ml,3962254
+2024-09,Central,Unilever,1 L,2638696
+2024-09,Lake,Salit Oil,250 ml,652223
+2024-09,Lake,Salit Oil,500 ml,2061318
+2024-09,Lake,Salit Oil,1 L,1848157
+2024-09,Lake,White Wash,250 ml,3387494
+2024-09,Lake,White Wash,500 ml,1631033
+2024-09,Lake,White Wash,1 L,1381511
+2024-09,Lake,Sawa Soap,250 ml,412192
+2024-09,Lake,Sawa Soap,500 ml,3358280
+2024-09,Lake,Sawa Soap,1 L,3045787
+2024-09,Lake,Kapa,250 ml,260788
+2024-09,Lake,Kapa,500 ml,1791738
+2024-09,Lake,Kapa,1 L,1970900
+2024-09,Lake,Bidco,250 ml,1930375
+2024-09,Lake,Bidco,500 ml,3683831
+2024-09,Lake,Bidco,1 L,687624
+2024-09,Lake,Unilever,250 ml,1294743
+2024-09,Lake,Unilever,500 ml,805613
+2024-09,Lake,Unilever,1 L,1051929
+2024-09,Rift Valley,Salit Oil,250 ml,3637704
+2024-09,Rift Valley,Salit Oil,500 ml,3768816
+2024-09,Rift Valley,Salit Oil,1 L,274131
+2024-09,Rift Valley,White Wash,250 ml,2565158
+2024-09,Rift Valley,White Wash,500 ml,1008123
+2024-09,Rift Valley,White Wash,1 L,850988
+2024-09,Rift Valley,Sawa Soap,250 ml,1239031
+2024-09,Rift Valley,Sawa Soap,500 ml,858109
+2024-09,Rift Valley,Sawa Soap,1 L,2011770
+2024-09,Rift Valley,Kapa,250 ml,3982881
+2024-09,Rift Valley,Kapa,500 ml,2387136
+2024-09,Rift Valley,Kapa,1 L,2920648
+2024-09,Rift Valley,Bidco,250 ml,2023830
+2024-09,Rift Valley,Bidco,500 ml,154238
+2024-09,Rift Valley,Bidco,1 L,428049
+2024-09,Rift Valley,Unilever,250 ml,1148603
+2024-09,Rift Valley,Unilever,500 ml,1050303
+2024-09,Rift Valley,Unilever,1 L,3378259
+2024-10,Nairobi,Salit Oil,250 ml,3389994
+2024-10,Nairobi,Salit Oil,500 ml,3431073
+2024-10,Nairobi,Salit Oil,1 L,2586595
+2024-10,Nairobi,White Wash,250 ml,2269075
+2024-10,Nairobi,White Wash,500 ml,2631681
+2024-10,Nairobi,White Wash,1 L,1686546
+2024-10,Nairobi,Sawa Soap,250 ml,2713792
+2024-10,Nairobi,Sawa Soap,500 ml,3198326
+2024-10,Nairobi,Sawa Soap,1 L,3075321
+2024-10,Nairobi,Kapa,250 ml,2493938
+2024-10,Nairobi,Kapa,500 ml,326623
+2024-10,Nairobi,Kapa,1 L,2927302
+2024-10,Nairobi,Bidco,250 ml,1529772
+2024-10,Nairobi,Bidco,500 ml,3000302
+2024-10,Nairobi,Bidco,1 L,2204156
+2024-10,Nairobi,Unilever,250 ml,3536624
+2024-10,Nairobi,Unilever,500 ml,1419980
+2024-10,Nairobi,Unilever,1 L,3732437
+2024-10,Coast,Salit Oil,250 ml,3393467
+2024-10,Coast,Salit Oil,500 ml,1391317
+2024-10,Coast,Salit Oil,1 L,1982032
+2024-10,Coast,White Wash,250 ml,2172257
+2024-10,Coast,White Wash,500 ml,3097647
+2024-10,Coast,White Wash,1 L,2787713
+2024-10,Coast,Sawa Soap,250 ml,3422860
+2024-10,Coast,Sawa Soap,500 ml,1542484
+2024-10,Coast,Sawa Soap,1 L,2068686
+2024-10,Coast,Kapa,250 ml,1780372
+2024-10,Coast,Kapa,500 ml,3647253
+2024-10,Coast,Kapa,1 L,1289424
+2024-10,Coast,Bidco,250 ml,2389783
+2024-10,Coast,Bidco,500 ml,568647
+2024-10,Coast,Bidco,1 L,3416069
+2024-10,Coast,Unilever,250 ml,1598450
+2024-10,Coast,Unilever,500 ml,1428304
+2024-10,Coast,Unilever,1 L,2373377
+2024-10,Central,Salit Oil,250 ml,2045386
+2024-10,Central,Salit Oil,500 ml,3407107
+2024-10,Central,Salit Oil,1 L,2172503
+2024-10,Central,White Wash,250 ml,2116279
+2024-10,Central,White Wash,500 ml,509420
+2024-10,Central,White Wash,1 L,185558
+2024-10,Central,Sawa Soap,250 ml,1654354
+2024-10,Central,Sawa Soap,500 ml,3993003
+2024-10,Central,Sawa Soap,1 L,3677616
+2024-10,Central,Kapa,250 ml,2553020
+2024-10,Central,Kapa,500 ml,2560245
+2024-10,Central,Kapa,1 L,1626864
+2024-10,Central,Bidco,250 ml,792275
+2024-10,Central,Bidco,500 ml,133332
+2024-10,Central,Bidco,1 L,1421536
+2024-10,Central,Unilever,250 ml,1334225
+2024-10,Central,Unilever,500 ml,847251
+2024-10,Central,Unilever,1 L,1110751
+2024-10,Lake,Salit Oil,250 ml,196810
+2024-10,Lake,Salit Oil,500 ml,2471044
+2024-10,Lake,Salit Oil,1 L,3717095
+2024-10,Lake,White Wash,250 ml,2794119
+2024-10,Lake,White Wash,500 ml,1848008
+2024-10,Lake,White Wash,1 L,1739045
+2024-10,Lake,Sawa Soap,250 ml,1299386
+2024-10,Lake,Sawa Soap,500 ml,655383
+2024-10,Lake,Sawa Soap,1 L,2434061
+2024-10,Lake,Kapa,250 ml,2309443
+2024-10,Lake,Kapa,500 ml,128526
+2024-10,Lake,Kapa,1 L,1720533
+2024-10,Lake,Bidco,250 ml,1184286
+2024-10,Lake,Bidco,500 ml,764098
+2024-10,Lake,Bidco,1 L,2841830
+2024-10,Lake,Unilever,250 ml,2150721
+2024-10,Lake,Unilever,500 ml,2571702
+2024-10,Lake,Unilever,1 L,2882578
+2024-10,Rift Valley,Salit Oil,250 ml,3929043
+2024-10,Rift Valley,Salit Oil,500 ml,3230774
+2024-10,Rift Valley,Salit Oil,1 L,2519395
+2024-10,Rift Valley,White Wash,250 ml,3528184
+2024-10,Rift Valley,White Wash,500 ml,1962272
+2024-10,Rift Valley,White Wash,1 L,3940589
+2024-10,Rift Valley,Sawa Soap,250 ml,3069586
+2024-10,Rift Valley,Sawa Soap,500 ml,2638445
+2024-10,Rift Valley,Sawa Soap,1 L,3622978
+2024-10,Rift Valley,Kapa,250 ml,2108807
+2024-10,Rift Valley,Kapa,500 ml,2910714
+2024-10,Rift Valley,Kapa,1 L,1210450
+2024-10,Rift Valley,Bidco,250 ml,3856523
+2024-10,Rift Valley,Bidco,500 ml,2531132
+2024-10,Rift Valley,Bidco,1 L,3149820
+2024-10,Rift Valley,Unilever,250 ml,1896876
+2024-10,Rift Valley,Unilever,500 ml,3480525
+2024-10,Rift Valley,Unilever,1 L,389293
+2024-11,Nairobi,Salit Oil,250 ml,545005
+2024-11,Nairobi,Salit Oil,500 ml,2077754
+2024-11,Nairobi,Salit Oil,1 L,2956412
+2024-11,Nairobi,White Wash,250 ml,3255954
+2024-11,Nairobi,White Wash,500 ml,1816345
+2024-11,Nairobi,White Wash,1 L,2633725
+2024-11,Nairobi,Sawa Soap,250 ml,2257104
+2024-11,Nairobi,Sawa Soap,500 ml,3849939
+2024-11,Nairobi,Sawa Soap,1 L,2650999
+2024-11,Nairobi,Kapa,250 ml,1725691
+2024-11,Nairobi,Kapa,500 ml,3882278
+2024-11,Nairobi,Kapa,1 L,518286
+2024-11,Nairobi,Bidco,250 ml,3939854
+2024-11,Nairobi,Bidco,500 ml,700650
+2024-11,Nairobi,Bidco,1 L,1224090
+2024-11,Nairobi,Unilever,250 ml,3303733
+2024-11,Nairobi,Unilever,500 ml,2961638
+2024-11,Nairobi,Unilever,1 L,3884381
+2024-11,Coast,Salit Oil,250 ml,3024935
+2024-11,Coast,Salit Oil,500 ml,2584333
+2024-11,Coast,Salit Oil,1 L,1451322
+2024-11,Coast,White Wash,250 ml,118378
+2024-11,Coast,White Wash,500 ml,583092
+2024-11,Coast,White Wash,1 L,1261331
+2024-11,Coast,Sawa Soap,250 ml,259693
+2024-11,Coast,Sawa Soap,500 ml,2081900
+2024-11,Coast,Sawa Soap,1 L,3131638
+2024-11,Coast,Kapa,250 ml,3856693
+2024-11,Coast,Kapa,500 ml,2009828
+2024-11,Coast,Kapa,1 L,3512520
+2024-11,Coast,Bidco,250 ml,3943606
+2024-11,Coast,Bidco,500 ml,3453331
+2024-11,Coast,Bidco,1 L,1913396
+2024-11,Coast,Unilever,250 ml,1368515
+2024-11,Coast,Unilever,500 ml,3913876
+2024-11,Coast,Unilever,1 L,1043455
+2024-11,Central,Salit Oil,250 ml,1705146
+2024-11,Central,Salit Oil,500 ml,388718
+2024-11,Central,Salit Oil,1 L,3195360
+2024-11,Central,White Wash,250 ml,2634364
+2024-11,Central,White Wash,500 ml,430795
+2024-11,Central,White Wash,1 L,965519
+2024-11,Central,Sawa Soap,250 ml,2266300
+2024-11,Central,Sawa Soap,500 ml,2207607
+2024-11,Central,Sawa Soap,1 L,3228033
+2024-11,Central,Kapa,250 ml,1137780
+2024-11,Central,Kapa,500 ml,3706336
+2024-11,Central,Kapa,1 L,1833447
+2024-11,Central,Bidco,250 ml,3308074
+2024-11,Central,Bidco,500 ml,1029686
+2024-11,Central,Bidco,1 L,244185
+2024-11,Central,Unilever,250 ml,314709
+2024-11,Central,Unilever,500 ml,1553539
+2024-11,Central,Unilever,1 L,3817296
+2024-11,Lake,Salit Oil,250 ml,289924
+2024-11,Lake,Salit Oil,500 ml,1539014
+2024-11,Lake,Salit Oil,1 L,526200
+2024-11,Lake,White Wash,250 ml,3733101
+2024-11,Lake,White Wash,500 ml,2733691
+2024-11,Lake,White Wash,1 L,3074497
+2024-11,Lake,Sawa Soap,250 ml,2881706
+2024-11,Lake,Sawa Soap,500 ml,2662403
+2024-11,Lake,Sawa Soap,1 L,3117510
+2024-11,Lake,Kapa,250 ml,131686
+2024-11,Lake,Kapa,500 ml,3475280
+2024-11,Lake,Kapa,1 L,2985473
+2024-11,Lake,Bidco,250 ml,2983782
+2024-11,Lake,Bidco,500 ml,1634402
+2024-11,Lake,Bidco,1 L,3223399
+2024-11,Lake,Unilever,250 ml,1589091
+2024-11,Lake,Unilever,500 ml,290958
+2024-11,Lake,Unilever,1 L,3640487
+2024-11,Rift Valley,Salit Oil,250 ml,1014687
+2024-11,Rift Valley,Salit Oil,500 ml,497410
+2024-11,Rift Valley,Salit Oil,1 L,2525401
+2024-11,Rift Valley,White Wash,250 ml,1011247
+2024-11,Rift Valley,White Wash,500 ml,3446688
+2024-11,Rift Valley,White Wash,1 L,1830626
+2024-11,Rift Valley,Sawa Soap,250 ml,117550
+2024-11,Rift Valley,Sawa Soap,500 ml,3811700
+2024-11,Rift Valley,Sawa Soap,1 L,2107054
+2024-11,Rift Valley,Kapa,250 ml,1125611
+2024-11,Rift Valley,Kapa,500 ml,2741420
+2024-11,Rift Valley,Kapa,1 L,2169380
+2024-11,Rift Valley,Bidco,250 ml,215468
+2024-11,Rift Valley,Bidco,500 ml,3062624
+2024-11,Rift Valley,Bidco,1 L,1665286
+2024-11,Rift Valley,Unilever,250 ml,2829287
+2024-11,Rift Valley,Unilever,500 ml,3592976
+2024-11,Rift Valley,Unilever,1 L,2481389
+2024-12,Nairobi,Salit Oil,250 ml,2719289
+2024-12,Nairobi,Salit Oil,500 ml,1093135
+2024-12,Nairobi,Salit Oil,1 L,1026867
+2024-12,Nairobi,White Wash,250 ml,1718506
+2024-12,Nairobi,White Wash,500 ml,3425846
+2024-12,Nairobi,White Wash,1 L,2144352
+2024-12,Nairobi,Sawa Soap,250 ml,1457322
+2024-12,Nairobi,Sawa Soap,500 ml,3140481
+2024-12,Nairobi,Sawa Soap,1 L,3428044
+2024-12,Nairobi,Kapa,250 ml,3619880
+2024-12,Nairobi,Kapa,500 ml,1265880
+2024-12,Nairobi,Kapa,1 L,2867597
+2024-12,Nairobi,Bidco,250 ml,2402248
+2024-12,Nairobi,Bidco,500 ml,1850990
+2024-12,Nairobi,Bidco,1 L,1648066
+2024-12,Nairobi,Unilever,250 ml,546757
+2024-12,Nairobi,Unilever,500 ml,1171817
+2024-12,Nairobi,Unilever,1 L,2243694
+2024-12,Coast,Salit Oil,250 ml,3557574
+2024-12,Coast,Salit Oil,500 ml,3478732
+2024-12,Coast,Salit Oil,1 L,831615
+2024-12,Coast,White Wash,250 ml,2749358
+2024-12,Coast,White Wash,500 ml,430765
+2024-12,Coast,White Wash,1 L,2732550
+2024-12,Coast,Sawa Soap,250 ml,1433515
+2024-12,Coast,Sawa Soap,500 ml,1854408
+2024-12,Coast,Sawa Soap,1 L,2898792
+2024-12,Coast,Kapa,250 ml,1757064
+2024-12,Coast,Kapa,500 ml,3248983
+2024-12,Coast,Kapa,1 L,2180964
+2024-12,Coast,Bidco,250 ml,3995099
+2024-12,Coast,Bidco,500 ml,2589139
+2024-12,Coast,Bidco,1 L,1255812
+2024-12,Coast,Unilever,250 ml,3123621
+2024-12,Coast,Unilever,500 ml,1690973
+2024-12,Coast,Unilever,1 L,2183256
+2024-12,Central,Salit Oil,250 ml,633602
+2024-12,Central,Salit Oil,500 ml,565438
+2024-12,Central,Salit Oil,1 L,2342000
+2024-12,Central,White Wash,250 ml,828094
+2024-12,Central,White Wash,500 ml,3990562
+2024-12,Central,White Wash,1 L,3437127
+2024-12,Central,Sawa Soap,250 ml,2833435
+2024-12,Central,Sawa Soap,500 ml,2965327
+2024-12,Central,Sawa Soap,1 L,2421330
+2024-12,Central,Kapa,250 ml,335132
+2024-12,Central,Kapa,500 ml,1630239
+2024-12,Central,Kapa,1 L,2033625
+2024-12,Central,Bidco,250 ml,3669665
+2024-12,Central,Bidco,500 ml,956015
+2024-12,Central,Bidco,1 L,2037974
+2024-12,Central,Unilever,250 ml,1441859
+2024-12,Central,Unilever,500 ml,624030
+2024-12,Central,Unilever,1 L,501770
+2024-12,Lake,Salit Oil,250 ml,1524976
+2024-12,Lake,Salit Oil,500 ml,421443
+2024-12,Lake,Salit Oil,1 L,361950
+2024-12,Lake,White Wash,250 ml,1468386
+2024-12,Lake,White Wash,500 ml,887718
+2024-12,Lake,White Wash,1 L,2263757
+2024-12,Lake,Sawa Soap,250 ml,168908
+2024-12,Lake,Sawa Soap,500 ml,1277069
+2024-12,Lake,Sawa Soap,1 L,1867791
+2024-12,Lake,Kapa,250 ml,3856262
+2024-12,Lake,Kapa,500 ml,2574707
+2024-12,Lake,Kapa,1 L,3534805
+2024-12,Lake,Bidco,250 ml,1438840
+2024-12,Lake,Bidco,500 ml,1853868
+2024-12,Lake,Bidco,1 L,1739488
+2024-12,Lake,Unilever,250 ml,3560839
+2024-12,Lake,Unilever,500 ml,3840916
+2024-12,Lake,Unilever,1 L,3853103
+2024-12,Rift Valley,Salit Oil,250 ml,3032656
+2024-12,Rift Valley,Salit Oil,500 ml,2062133
+2024-12,Rift Valley,Salit Oil,1 L,2209340
+2024-12,Rift Valley,White Wash,250 ml,3923989
+2024-12,Rift Valley,White Wash,500 ml,1209709
+2024-12,Rift Valley,White Wash,1 L,1452159
+2024-12,Rift Valley,Sawa Soap,250 ml,3598287
+2024-12,Rift Valley,Sawa Soap,500 ml,1606656
+2024-12,Rift Valley,Sawa Soap,1 L,1016878
+2024-12,Rift Valley,Kapa,250 ml,2285831
+2024-12,Rift Valley,Kapa,500 ml,1368836
+2024-12,Rift Valley,Kapa,1 L,3574406
+2024-12,Rift Valley,Bidco,250 ml,3645352
+2024-12,Rift Valley,Bidco,500 ml,1293439
+2024-12,Rift Valley,Bidco,1 L,2165214
+2024-12,Rift Valley,Unilever,250 ml,3937570
+2024-12,Rift Valley,Unilever,500 ml,2995040
+2024-12,Rift Valley,Unilever,1 L,940946

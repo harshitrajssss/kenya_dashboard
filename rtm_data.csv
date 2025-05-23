@@ -1,0 +1,16 @@
+Territory,SubCounty,Sales_KES,Delivery_Frequency_pw,Outlet_Reach_pct,White_Space_pct
+Nairobi,Westlands,2550993,5,25.0,60.7
+Nairobi,Langata,3106488,1,71.2,33.1
+Nairobi,Embakasi,3913337,2,59.6,47.2
+Coast,Mombasa,3322889,4,45.3,7.7
+Coast,Kilifi,879999,2,38.0,14.4
+Coast,Malindi,2722958,5,59.9,16.1
+Central,Nyeri,965313,2,59.4,27.5
+Central,Murang'a,4663040,4,11.9,67.3
+Central,Kiambu,3159119,3,76.5,10.4
+Lake,Kisumu,2670365,2,51.7,66.0
+Lake,Homa Bay,2689962,1,50.2,22.4
+Lake,Siaya,3072776,6,54.3,33.5
+Rift Valley,Nakuru,1992060,2,80.2,63.3
+Rift Valley,Eldoret,597254,4,57.1,12.1
+Rift Valley,Naivasha,1131120,4,33.9,47.9
