@@ -1,0 +1,46 @@
+Territory,Brand,SKU_Cluster,Sales_KES,Market_Share_pct,White_Space_pct,Competitor_Strength_pct
+Nairobi,Salit Oil,250 ml,11000000,27.6,52.9,72.4
+Nairobi,Salit Oil,500 ml,40000000,37.9,14.7,62.1
+Nairobi,Salit Oil,1 L,30000000,40.4,49.3,59.6
+Nairobi,White Wash,250 ml,48000000,15.1,32.5,84.9
+Nairobi,White Wash,500 ml,29000000,47.1,42.2,52.9
+Nairobi,White Wash,1 L,23000000,42.9,32.2,57.1
+Nairobi,Sawa Soap,250 ml,26000000,32.2,13.2,67.8
+Nairobi,Sawa Soap,500 ml,17000000,43.1,41.6,56.9
+Nairobi,Sawa Soap,1 L,14000000,24.2,58.5,75.8
+Coast,Salit Oil,250 ml,39000000,45.7,48.9,54.3
+Coast,Salit Oil,500 ml,39000000,28.7,12.2,71.3
+Coast,Salit Oil,1 L,16000000,16.2,44.2,83.8
+Coast,White Wash,250 ml,46000000,48.7,26.3,51.3
+Coast,White Wash,500 ml,39000000,24.8,33.5,75.2
+Coast,White Wash,1 L,41000000,15.2,33.8,84.8
+Coast,Sawa Soap,250 ml,15000000,19.1,43.5,80.9
+Coast,Sawa Soap,500 ml,47000000,43.3,45.0,56.7
+Coast,Sawa Soap,1 L,26000000,22.5,51.6,77.5
+Central,Salit Oil,250 ml,26000000,25.5,24.4,74.5
+Central,Salit Oil,500 ml,41000000,37.3,17.0,62.7
+Central,Salit Oil,1 L,42000000,10.3,49.3,89.7
+Central,White Wash,250 ml,16000000,36.6,45.3,63.4
+Central,White Wash,500 ml,19000000,28.4,38.4,71.6
+Central,White Wash,1 L,40000000,15.6,15.7,84.4
+Central,Sawa Soap,250 ml,26000000,28.8,38.3,71.2
+Central,Sawa Soap,500 ml,36000000,40.6,41.7,59.4
+Central,Sawa Soap,1 L,31000000,32.4,25.2,67.6
+Lake,Salit Oil,250 ml,31000000,11.2,31.8,88.8
+Lake,Salit Oil,500 ml,49000000,26.3,52.7,73.7
+Lake,Salit Oil,1 L,17000000,19.4,12.9,80.6
+Lake,White Wash,250 ml,43000000,21.7,43.1,78.3
+Lake,White Wash,500 ml,19000000,32.3,49.2,67.7
+Lake,White Wash,1 L,49000000,26.3,50.7,73.7
+Lake,Sawa Soap,250 ml,35000000,16.7,11.1,83.3
+Lake,Sawa Soap,500 ml,12000000,38.9,33.1,61.1
+Lake,Sawa Soap,1 L,11000000,16.5,35.1,83.5
+Rift Valley,Salit Oil,250 ml,47000000,37.9,32.3,62.1
+Rift Valley,Salit Oil,500 ml,14000000,25.2,25.1,74.8
+Rift Valley,Salit Oil,1 L,36000000,24.5,14.4,75.5
+Rift Valley,White Wash,250 ml,34000000,14.7,58.1,85.3
+Rift Valley,White Wash,500 ml,23000000,38.0,23.3,62.0
+Rift Valley,White Wash,1 L,46000000,48.8,48.9,51.2
+Rift Valley,Sawa Soap,250 ml,18000000,28.0,23.6,72.0
+Rift Valley,Sawa Soap,500 ml,38000000,13.9,55.1,86.1
+Rift Valley,Sawa Soap,1 L,13000000,18.1,25.3,81.9
