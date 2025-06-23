@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+[class^="css"] {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #acdcf8;
+}
+
+/* Base nav button style */
+.nav-btn {
+  background-color: transparent;
+  padding: 8px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.nav-btn:hover {
+  background-color: #e5f1f8;
+}
+
+/* Active tab */
+.nav-btn.active {
+  background-color: #e5f1f8;
+
+  border: 1px solid #0278b7;
+}
+
+.block-container {
+  padding-top: 2rem !important; /* or 0 if you want no space at all */
+}
+
+.kpiCardStyle {
+  padding: 16px;
+  background-color: #fafafa;
+  border: 1px solid #e4e4e4;
+  border-radius: 16px;
+  height: 100px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  width: 80%;
+}
+
+.kpiCardStyle h5 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #444;
+}
+
+.kpiCardStyle p {
+  margin-top: 0.33rem;
+  font-weight: 500;
+  color: #222;
+}
+
+/* Override selectbox border when focused (active state) */
+
+/* Target only the selectbox dropdown's active (focused) border */
+div[data-baseweb="select"] > div:focus-within {
+  border: 1px solid #0077b6 !important;
+}
+
+.map-wrapper {
+  padding: 16px;
+  border: 1px solid #e4e4e4;
+  border-radius: 16px;
+  background-color: #fafafa;
+  margin-bottom: 24px;
+}
+
+.plotly {
+  border: 1px solid #0278b7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.gdg-s1dgczr6 .dvn-scroller {
+  background-color: #0077b6;
+  opacity: 10%;
+}
