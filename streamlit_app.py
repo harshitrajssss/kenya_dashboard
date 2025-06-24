@@ -538,9 +538,9 @@ def page_main_dashboard():
                 color="White Space Score",
                 color_continuous_scale="YlOrRd",
                 range_color=(0, 60),
-                mapbox_style="carto-darkmatter",
+                mapbox_style="carto-positron",
                 center=dict(lat=0.23, lon=37.9),
-                zoom=5.5,
+                zoom=5,
                 opacity=0.9,
                 height=520,
             )
@@ -775,7 +775,7 @@ def page_territory_deep_dive():
             featureidkey="properties.COUNTY_KEY",
             color=AWS,
             color_continuous_scale="YlOrRd",
-            mapbox_style="carto-darkmatter",
+            mapbox_style="carto-positron",
             center={"lat": 0.23, "lon": 37.9},
             zoom=6,
             opacity=0.9,
@@ -1146,7 +1146,7 @@ def draw_cluster_map(df, cent, poly):
     )
     fig = go.Figure([outline] + list(px_fig.data))
     fig.update_layout(
-        mapbox_style="carto-darkmatter",
+        mapbox_style="carto-positron",
         mapbox_zoom=5.4,
         mapbox_center=dict(lat=0.25, lon=37.6),
         height=260,
@@ -1563,7 +1563,7 @@ def page_kenya_dashboard():
         featureidkey="properties.COUNTY_KEY",
         color="Opportunity Score",
         color_continuous_scale="YlOrRd",
-        mapbox_style="carto-darkmatter",
+        mapbox_style="carto-positron",
         center={"lat": 0.23, "lon": 37.9},
         zoom=5.5,
         opacity=0.9,
@@ -1804,7 +1804,7 @@ def page_mt_dashboard():
             color="plot_ws",
             color_continuous_scale="YlOrRd",
             range_color=(0, 60),
-            mapbox_style="carto-darkmatter",
+            mapbox_style="carto-positron",
             center={"lat": 0.23, "lon": 37.9},
             zoom=5.5,
             opacity=0.9,
