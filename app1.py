@@ -1,123 +1,119 @@
+# app.py — Competitor Analysis (refined visual design)
+
 import streamlit as st
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-import json, re
+import streamlit.components.v1 as components
 
-# ── COLOURS ───────────────────────────────────────────
-NAVY_BG  = "#0F1C2E"
-PANEL_BG = "#192A3E"
-FG_TEXT  = "#e3e8ef"
+# ──────────────────────────────────────────────
+# Power BI URLs  (replace with live ones if needed)
+NIELSEN_PBI_URL = (
+    "https://app.powerbi.com/view?r=eyJrIjoiNGE5NDc5YjMtZWI4Yy00ZmY0LWI1ZjYtZmEwMTJjYTA1MWZkIiwidCI6IjA4YjdjZmViLTg5N2UtNDY5Yi05NDM2LTk3NGU2OTRhOGRmMiJ9"
+)
+MT_PBI_URL = (
+    "https://app.powerbi.com/view?r=eyJrIjoiYTZlNWYxNjctZDRjMS00NTA1LTkzNWItOWZmYWE3ZjY3MDJkIiwidCI6IjA4YjdjZmViLTg5N2UtNDY5Yi05NDM2LTk3NGU2OTRhOGRmMiJ9&pageName=ReportSection"
+)
+# ──────────────────────────────────────────────
 
-# ── PAGE + GLOBAL CSS ────────────────────────────────
-st.set_page_config(page_title="Kenya County Opportunity Dashboard",
-                   layout="wide", page_icon="📍")
 
-MAP_TABLE_HEIGHT = 760            # 🔧 tweak here if needed
-MAP_TABLE_RATIO  = [5, 3]         # 🔧 map : table width ratio  (≈62 % : 38 %)
-
-st.markdown(
-    f"""
-    <style>
-        html, body, [data-testid="stApp"] {{
-            background:{NAVY_BG};
-            color:{FG_TEXT};
-        }}
-        .stDataFrame {{ background:{NAVY_BG}; }}
-        /* force iframe (plotly map) to fixed height */
-        div.map-container iframe {{
-            height:{MAP_TABLE_HEIGHT}px !important;
-        }}
-        /* shrink selectbox row padding */
-        section[data-testid="column"] {{ padding:0 8px; }}
-    </style>
-    """,
-    unsafe_allow_html=True)
-
-st.title("📍 Kenya County Opportunity Dashboard")
-
-# ── HELPER ----------------------------------------------------------
-def detect(patterns, cols):
-    norm = {c: re.sub(r"[\s_]", "", c.lower()) for c in cols}
-    for col, slug in norm.items():
-        if any(re.search(p, slug) for p in patterns):
-            return col
-    return None
-
-# ── LOAD DATA -------------------------------------------------------
-@st.cache_data
-def load_counties():
-    df  = pd.read_csv("Merged_Data_with_Opportunity_Score.csv")
-    geo = json.load(open("kenya.geojson", "r", encoding="utf-8"))
-    for f in geo["features"]:
-        nm = f["properties"].get("COUNTY_NAM") or ""
-        f["properties"]["COUNTY_KEY"] = nm.title().strip()
-    return df, geo
-
-@st.cache_data
-def load_points():
-    raw  = pd.read_excel("rtm_lat_log.xlsx")
-    cols = list(raw.columns)
-    lat  = detect([r"^lat"], cols)
-    lon  = detect([r"(lon|lng)"], cols)
-    dist = detect([r"distrib|dealer|partner|outlet"], cols)
-    if None in (lat, lon, dist):
-        st.stop()
-    pts            = raw[[dist, lat, lon]].copy()
-    pts.columns    = ["Distributor", "Latitude", "Longitude"]
-    pts["Latitude"]= pd.to_numeric(pts["Latitude"],  errors="coerce")
-    pts["Longitude"]=pd.to_numeric(pts["Longitude"], errors="coerce")
-    return pts.dropna(subset=["Latitude","Longitude"])
-
-df,  geojson = load_counties()
-pts_df       = load_points()
-
-# ── COMPACT FILTER ROW ----------------------------------------------
-f1, f2 = st.columns([1, 5])           # narrow cell for filter
-with f1:
-    brands = ["All"] + sorted(df["BRAND"].dropna().unique())
-    choose = st.selectbox("Select Brand", brands)
-
-view_df = df if choose == "All" else df[df["BRAND"] == choose]
-
-# ── CHOROPLETH -------------------------------------------------------
-county_avg = (view_df.groupby("County", as_index=False)["AWS"]
-                       .mean()
-                       .assign(County=lambda d: d["County"].str.title().str.strip()))
-
-fig = px.choropleth_mapbox(
-    county_avg, geojson=geojson,
-    locations="County", featureidkey="properties.COUNTY_KEY",
-    color="AWS",
-    color_continuous_scale="YlOrRd",
-    mapbox_style="carto-darkmatter",
-    center={"lat":0.23,"lon":37.9}, zoom=5.5,
-    opacity=0.9, height=MAP_TABLE_HEIGHT)
-
-fig.add_trace(go.Densitymapbox(
-    lat=pts_df["Latitude"], lon=pts_df["Longitude"],
-    z=[1]*len(pts_df), radius=14, opacity=0.7,
-    colorscale=[[0,"rgba(0,120,255,0.25)"],
-                [0.3,"rgba(0,120,255,0.55)"],
-                [1,"rgba(0,120,255,0.9)"]],
-    showscale=False, name="Distributor Density"))
-
-fig.update_layout(
-    paper_bgcolor=NAVY_BG, font_color=FG_TEXT,
-    margin=dict(l=0,r=0,t=15,b=0))
-
-# ── SIDE-BY-SIDE PANELS (MAP + TABLE) -------------------------------
-map_col, table_col = st.columns(MAP_TABLE_RATIO)
-
-with map_col:
-    st.plotly_chart(fig, use_container_width=True,
-                    config=dict(displayModeBar=True))
-
-with table_col:
-    st.markdown("### 📊 Detailed Data Table")
-    st.dataframe(
-        view_df[["Territory","County","BRAND","subcategory",
-                 "Opportunity Score","AWS"]],
-        height=MAP_TABLE_HEIGHT,
-        use_container_width=True
+def main() -> None:
+    # -------- page set-up --------
+    st.set_page_config(
+        page_title="Competitor Analysis",
+        page_icon="📊",
+        layout="wide",
     )
+    _inject_css()                      # ⬅️  one-shot style injector
+
+    # -------- header --------
+    col_logo, col_title = st.columns([1, 8])
+    with col_logo:
+        st.image("https://placehold.co/64x64?text=Logo", width=64)
+    with col_title:
+        st.markdown("<h1 style='margin-bottom:0.3rem'>Competitor Analysis</h1>",
+                    unsafe_allow_html=True)
+        st.caption("Compare Nielsen syndicated data with Modern-Trade (MT) performance.")
+
+    st.divider()
+
+    # -------- centred content container --------
+    with st.container():
+        st.markdown("<div class='center-container'>", unsafe_allow_html=True)
+
+        # ① Tabs (styled as buttons)
+        tab1, tab2 = st.tabs(["📈 Nielsen", "🏬 Modern Trade"])
+
+        # ② Dashboard in nicely padded card
+        with tab1:
+            _dashboard_card("Nielsen Dashboard", NIELSEN_PBI_URL)
+
+        with tab2:
+            _dashboard_card("Modern-Trade (MT) Dashboard", MT_PBI_URL)
+
+        st.markdown("</div>", unsafe_allow_html=True)
+
+    # -------- footer --------
+    st.markdown(
+        "<p style='text-align:center; font-size:0.75rem; color:gray;'>"
+        "© 2025 Solutech Analytics | Confidential</p>",
+        unsafe_allow_html=True,
+    )
+
+
+# ──────────────────────────────────────────────
+# helpers
+# ──────────────────────────────────────────────
+def _dashboard_card(title: str, url: str) -> None:
+    """Wrap a dashboard iframe in a rounded, shadowed card."""
+    st.markdown("<div class='dash-card'>", unsafe_allow_html=True)
+    st.subheader(title)
+    components.iframe(url, height=750, scrolling=True)
+    st.markdown("</div>", unsafe_allow_html=True)
+
+
+def _inject_css() -> None:
+    """Global CSS — run once."""
+    st.markdown(
+        """
+        <style>
+        /* ---------- general page tweaks ---------- */
+        body, .stApp {background:#F4F6FA;}
+        #MainMenu, footer {visibility:hidden;}
+
+        /* center everything under .center-container */
+        .center-container > div:first-child {max-width:1400px; margin:auto;}
+
+        /* ---------- cards ---------- */
+        .dash-card {
+            background:#FFFFFF;
+            border:1px solid #E2E6EF;
+            border-radius:12px;
+            padding:1.5rem;
+            margin-top:1rem;
+            box-shadow:0 8px 24px rgba(0,0,0,0.05);
+        }
+        iframe {border:none; border-radius:10px;}
+
+        /* ---------- tab bar ---------- */
+        div[data-baseweb="tab-list"] {
+            gap:0.35rem;
+        }
+        div[data-baseweb="tab"] {
+            padding:0.7rem 1.6rem;
+            background:#EEF1F7;
+            border:1px solid #D7DBE5;
+            border-bottom:none;
+            border-radius:10px 10px 0 0;
+            font-weight:600;
+            transition:background 0.2s ease;
+        }
+        div[data-baseweb="tab"][aria-selected="true"] {
+            background:#FFFFFF;
+            color:#1a1a1a;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+if __name__ == "__main__":
+    main()
