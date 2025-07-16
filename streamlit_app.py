@@ -49,31 +49,31 @@ NAVY_BG, PANEL_BG, FG_TEXT = "#0F1C2E", "#e3e8ef", "#e3e8ef"
 # </style>""", unsafe_allow_html=True)
 
 # ╭──────────────────────────  FILE PATHS  ──────────────────────────╮
-GT_FILE       = "GT_DATA_122_merged_filled.xlsx"
-TERR_GJ       = "kenya_territories (1).geojson"
-RTM_FILE  = "RTM_SUBCOUNTY_ANALYSIS_updated_approch (2).csv"
-COUNTY_GJ     = "kenya.geojson"
-MT_FILE       = "MT_WHITE_SPACE_SCORE_CLEANED.xlsx"
-CLUSTER_FILE  = "MT_CLUSTER_2_With_County.xlsx"
+GT_FILE = "GT_DATA_122_merged_filled.xlsx"
+TERR_GJ = "kenya_territories (1).geojson"
+RTM_FILE = "RTM_SUBCOUNTY_ANALYSIS_updated_approch (2).csv"
+COUNTY_GJ = "kenya.geojson"
+MT_FILE = "MT_WHITE_SPACE_SCORE_CLEANED.xlsx"
+CLUSTER_FILE = "MT_CLUSTER_2_With_County.xlsx"
 COMP_FILE = "PWANI_COMP_STD_final_confirmed.xlsx"
-
 
 
 def load_rtm_main():
 
     rtm = pd.read_csv(RTM_FILE)
     rtm.columns = rtm.columns.str.strip().str.title()
-    rtm[["Territory", "County",'Subcounty',"Brand"]] = rtm[["Territory", "County",'Subcounty',"Brand"]].apply(
-        lambda s: s.str.title().str.strip())
-    
+    rtm[["Territory", "County", "Subcounty", "Brand"]] = rtm[
+        ["Territory", "County", "Subcounty", "Brand"]
+    ].apply(lambda s: s.str.title().str.strip())
+
     comp_df = pd.read_excel(COMP_FILE)
     comp_df.columns = comp_df.columns.str.strip()
     comp_df.rename(columns={"Market": "Territory"}, inplace=True)
-    comp_df["Territory"]  = comp_df["Territory"].str.title().str.strip()
-    comp_df["BRAND"]      = comp_df["BRAND"].str.title().str.strip()
+    comp_df["Territory"] = comp_df["Territory"].str.title().str.strip()
+    comp_df["BRAND"] = comp_df["BRAND"].str.title().str.strip()
     comp_df["Competitor"] = comp_df["Competitor"].str.title().str.strip()
 
-    return rtm,comp_df
+    return rtm, comp_df
 
 
 RTM_DF, COMP_DF = load_rtm_main()
@@ -368,8 +368,6 @@ def page_main_dashboard():
                 category_orders={"ws_bin": labels},
                 color_discrete_map=BIN_COLOURS,
                 mapbox_style="carto-positron",
-
-
                 center=dict(lat=0.23, lon=37.9),
                 zoom=5,
                 opacity=0.9,
@@ -709,7 +707,7 @@ def page_territory_deep_dive():
     import plotly.graph_objects as go
 
     # ───── CONSTANTS --------------------------------------------------------
-    TEXT_CSV     = "all_brands_competitive_analysis_20250530_140609.csv"
+    TEXT_CSV = "all_brands_competitive_analysis_20250530_140609.csv"
     SUBCOUNTY_GJ = "kenya-subcounties-simplified.geojson"
 
     # ───── 1 ▸ competitor narrative CSV (cached) ---------------------------
@@ -730,12 +728,16 @@ def page_territory_deep_dive():
         geo = json.loads(Path(SUBCOUNTY_GJ).read_text("utf-8"))
         for f in geo["features"]:
             name = (
-                f["properties"].get("shapeName")
-                or f["properties"].get("SubCounty")
-                or f["properties"].get("Subcounty")
-                or f["properties"].get("SUB_COUNTY")
-                or f["properties"].get("NAME", "")
-            ).title().strip()
+                (
+                    f["properties"].get("shapeName")
+                    or f["properties"].get("SubCounty")
+                    or f["properties"].get("Subcounty")
+                    or f["properties"].get("SUB_COUNTY")
+                    or f["properties"].get("NAME", "")
+                )
+                .title()
+                .strip()
+            )
             f["properties"]["SUB_KEY"] = name
         return geo
 
@@ -747,13 +749,14 @@ def page_territory_deep_dive():
     c1, c2, c3 = st.columns([1, 1, 1])
     territory = c1.selectbox("Territory", ["All"] + sorted(GT_DF["Territory"].unique()))
     brand_list = ["All"] + sorted(GT_DF["Brand"].unique())
-    default_brand_idx = brand_list.index("Ushindi Bar") if "Ushindi Bar" in brand_list else 0
+    default_brand_idx = (
+        brand_list.index("Ushindi Bar") if "Ushindi Bar" in brand_list else 0
+    )
     brand = c2.selectbox("Brand", brand_list, index=default_brand_idx)
     level_options = ["County", "Sub-County"]
     level = c3.selectbox(
-        "Map granularity",
-        level_options,
-        index=level_options.index("Sub-County")) # default to Sub-County)
+        "Map granularity", level_options, index=level_options.index("Sub-County")
+    )  # default to Sub-County)
 
     # ───── 4 ▸ KPI CARDS ----------------------------------------------------
     view_df = GT_DF.copy()
@@ -774,7 +777,7 @@ def page_territory_deep_dive():
         ],
     ):
         box.markdown(
-            f'''<div class="kpiCardStyle"><h5>{title}</h5><p>{value}</p></div>''',
+            f"""<div class="kpiCardStyle"><h5>{title}</h5><p>{value}</p></div>""",
             unsafe_allow_html=True,
         )
 
@@ -795,8 +798,6 @@ def page_territory_deep_dive():
     # ───── 6 ▸ BUILD MAP ----------------------------------------------------
     left, right = st.columns(2)
 
-    
-
     with left:
         st.markdown("### RTM Hot-Zones")
 
@@ -804,7 +805,9 @@ def page_territory_deep_dive():
             geo_src, id_field, key_col = COUNTY_GEO, "COUNTY_KEY", "County"
         else:
             # detect sub-county column automatically
-            def _match(c): return "sub" in c.lower() and "county" in c.lower()
+            def _match(c):
+                return "sub" in c.lower() and "county" in c.lower()
+
             key_col = next((c for c in rtm.columns if _match(c)), None)
             if key_col is None:
                 st.error("❌ Sub-county column not found in RTM data.")
@@ -814,14 +817,30 @@ def page_territory_deep_dive():
         # full list of polygons to colour (Kenya map)
         all_keys = [f["properties"][id_field] for f in geo_src["features"]]
 
-        map_df = (
-            pd.DataFrame({id_field: all_keys})
-            .merge(
-                rtm[[key_col, AWS]].rename(columns={key_col: id_field}),
-                how="left",
-            )
-            .fillna({AWS: 0})
+        # Add AWS_Bin column (if not already done)
+        aws_bins = [0, 20, 40, 60, 80, 100]
+        aws_labels = ["0–20", "20–40", "40–60", "60–80", "80–100"]
+        rtm["AWS_Bin"] = pd.cut(
+            rtm[AWS], bins=aws_bins, labels=aws_labels, include_lowest=True, right=False
         )
+
+        # Get selected AWS bin from session_state
+        selected_range = st.session_state.get("aws_range", "All")
+
+        # Merge AWS value into map
+        map_df = pd.DataFrame({id_field: all_keys}).merge(
+            rtm[[key_col, AWS, "AWS_Bin"]].rename(columns={key_col: id_field}),
+            how="left",
+        )
+
+        # Filter map data based on selected bin
+        if selected_range != "All":
+            map_df["visible"] = map_df["AWS_Bin"] == selected_range
+            map_df.loc[~map_df["visible"], AWS] = 0  # or np.nan for total hide
+        else:
+            map_df["visible"] = True
+
+        map_df = map_df.fillna({AWS: 0})
 
         mfig = px.choropleth_mapbox(
             map_df,
@@ -842,122 +861,86 @@ def page_territory_deep_dive():
         st.plotly_chart(mfig, use_container_width=True)
 
     # ───── 7 ▸ AWS HISTOGRAM ----------------------------------------------
+    from streamlit_plotly_events import plotly_events
+
     with right:
         st.markdown("### AWS Score Distribution")
 
         aws_bins = [0, 20, 40, 60, 80, 100]
         aws_labels = ["0–20", "20–40", "40–60", "60–80", "80–100"]
 
+        rtm = rtm.copy()
+        rtm[AWS] = pd.to_numeric(rtm[AWS], errors="coerce")
         rtm["AWS_Bin"] = pd.cut(
-        rtm[AWS],
-        bins=aws_bins,
-        labels=aws_labels,
-        include_lowest=True,
-        right=False)
+            rtm[AWS], bins=aws_bins, labels=aws_labels, include_lowest=True, right=False
+        )
 
+        # ───── Clear Button FIRST ─────
+        # Create two columns: one for the button and one for the selected range
+        col_clear, col_label = st.columns([2, 4])
+
+        with col_clear:
+            if st.button("Clear AWS Filter"):
+                selected_range = st.session_state.get("aws_range", "All")
+                if selected_range != "All":
+                    st.session_state["aws_range"] = "All"
+                    st.rerun()
+
+        with col_label:
+            st.markdown(f"**Selected Range:** `{selected_range}`")
+
+
+        # ───── Histogram ─────
         hist = px.histogram(
-        rtm,
-        x="AWS_Bin",
-        color_discrete_sequence=["#38bdf8"],
-        labels={"AWS_Bin": "AWS Score Bin"},
-        category_orders={"AWS_Bin": aws_labels} )
+            rtm,
+            x="AWS_Bin",
+            color_discrete_sequence=["#38bdf8"],
+            labels={"AWS_Bin": "AWS Score Bin"},
+            category_orders={"AWS_Bin": aws_labels},
+        )
 
         hist.update_layout(
-        height=520,
-        bargap=0.25,
-        paper_bgcolor='#e3e8ef',
-        plot_bgcolor='#e3e8ef',
-        xaxis=dict(title="AWS Score", tickmode="array", tickvals=aws_labels),
-        yaxis=AXIS,
-        margin=dict(l=0, r=0, t=30, b=30),)
+            height=460,
+            bargap=0.25,
+            paper_bgcolor="#e3e8ef",
+            plot_bgcolor="#e3e8ef",
+            xaxis=dict(title="AWS Score", tickmode="array", tickvals=aws_labels),
+            yaxis=AXIS,
+            margin=dict(l=0, r=0, t=30, b=30),
+            clickmode="event+select",
+        )
+        hist.update_layout(
+            shapes=[  # Add border to the plot area
+                {
+                    "type": "rect",
+                    "type": "rect",
+                    "x0": 0,
+                    "y0": -0.075,  # Adjusted for top margin (0.05 from the top)
+                    "x1": 1,
+                    "y1": 1.075,
+                    "xref": "paper",
+                    "yref": "paper",
+                    "line": {
+                        "color": "#0077b6",  # Border color
+                        "width": 1,  # Border width
+                    },
+                }
+            ]
+        )
 
+        # ───── Interactivity ─────
+        selected_points = plotly_events(
+            hist, click_event=True, select_event=True, override_height=520
+        )
 
+        if selected_points:
+            new_range = selected_points[0]["x"]
+            if selected_range != new_range:
+                st.session_state["aws_range"] = new_range
+                st.rerun()
 
-        mfig.update_layout( margin=dict(l=0, r=0, t=10, b=10),
-        paper_bgcolor="#e3e8ef")
-        
-        st.plotly_chart(hist, use_container_width=True)
+        # st.plotly_chart(hist, use_container_width=True)
 
-    # ───── 8 ▸ COMPETITOR PANEL (only if a single territory & brand) -------
-    if territory == "All" or brand == "All":
-        return
-
-    comp_rows = COMP_DF[
-        (COMP_DF["Territory"] == territory) & (COMP_DF["BRAND"] == brand)
-    ]
-    if comp_rows.empty:
-        st.info("No competitor data for this selection.")
-        return
-
-    sel_comp = st.selectbox(
-        "Select Competitor", sorted(comp_rows["Competitor"].unique())
-    )
-    row = comp_rows[comp_rows["Competitor"] == sel_comp].iloc[0]
-    cli, cmp = row["Pwani Market Share (%)"], row["Competitor Market Share (%)"]
-
-    strip = go.Figure()
-    strip.add_bar(
-        y=["Market"], x=[cli], orientation="h",
-        marker_color="#38bdf8", text=[f"Client {cli:.1f}%"], textposition="inside"
-    )
-    strip.add_bar(
-        y=["Market"], x=[cmp], orientation="h",
-        marker_color="#64748b", text=[f"{sel_comp} {cmp:.1f}%"], textposition="inside"
-    )
-    strip.update_layout(
-        barmode="stack", height=140,
-        title=f"Total Market Value: {cli+cmp:.1f}%",
-        margin=dict(l=20, r=20, t=40, b=10),
-        paper_bgcolor=PANEL_BG, plot_bgcolor=PANEL_BG,
-        xaxis=dict(visible=False), yaxis=dict(visible=False),
-        font=dict(color="#000"), showlegend=False,
-    )
-    st.plotly_chart(strip, use_container_width=True)
-
-    # narrative text cards
-    bullets = re.compile(r"^\s*(?:-|\•|\d+\)|\d+\.)\s+(.*)$")
-
-    def _card(text: str) -> str:
-        paras, blt = [], []
-        for ln in (text or "").splitlines():
-            ln = ln.strip()
-            if not ln:
-                continue
-            m = bullets.match(ln)
-            (blt if m else paras).append(html.escape(m.group(1) if m else ln))
-        out = ["<div class='reason-card'>"]
-        if paras:
-            out.append("<p>" + " ".join(paras) + "</p>")
-        if blt:
-            out.append("<ul>" + "".join(f"<li>{x}</li>" for x in blt) + "</ul>")
-        out.append("</div>")
-        return "".join(out)
-
-    st.markdown(
-        """
-        <style>
-        .reason-card{border:1px solid #d4d4d8;border-radius:10px;padding:1rem 1.3rem;
-                     margin:1rem 0;background:#f8fafc;color:#334155;font-size:.9rem;}
-        .reason-card ul{margin:0 0 .2rem 1.1rem;padding-left:0;}
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    txt_rows = COMP_TXT_DF[
-        (COMP_TXT_DF["Brand"] == brand)
-        & (COMP_TXT_DF["Competitor"] == sel_comp)
-        & (COMP_TXT_DF["Territory"] == territory)
-    ]
-    if txt_rows.empty:
-        st.info("No narrative text for this competitor.")
-    else:
-        st.markdown("#### Reasons Outperformance")
-        for _, r in txt_rows.iterrows():
-            st.markdown(_card(r.get("Reasons_Outperformance") or r.get("Reason") or ""),
-                        unsafe_allow_html=True)
-
-    st.caption("Data sources: GT / RTM KPI · Kenya GeoJSONs · Competitor share & narrative files")
 
 # ╭───────────────────────────────  PAGE 3  ─────────────────────────╮
 
@@ -1021,7 +1004,7 @@ def load_gt():
             "Market_Share": "SHARE_PCT",
             "Total_brand": "SALES_VAL",
             "avg_price": "AVG_PRICE",
-            "Sales":"ERP GT Sales Coverage"
+            "Sales": "ERP GT Sales Coverage",
         }
     )
     ensure_str_col(df, "MARKET")
@@ -1164,9 +1147,7 @@ def page_sku_dashboard():
     with c1:
         st.subheader("Cluster Share")
         share = gt_filt.groupby("CLUSTER")["Sales"].sum().reset_index()
-        share["Percent"] = (share["Sales"] / share["Sales"].sum() * 100).round(
-            1
-        )
+        share["Percent"] = (share["Sales"] / share["Sales"].sum() * 100).round(1)
         fig = px.bar(
             share,
             x="Percent",
@@ -1538,9 +1519,7 @@ def page_kenya_dashboard():
         )
     )
 
-    fig.update_layout(
-        font_color=FG_TEXT, margin=dict(l=0, r=0, t=15, b=0)
-    )
+    fig.update_layout(font_color=FG_TEXT, margin=dict(l=0, r=0, t=15, b=0))
 
     map_col, table_col = st.columns(MAP_TABLE_RATIO)
 
@@ -1880,11 +1859,13 @@ def page_mt_dashboard():
         "Data: MT White-Space Score (cleaned)  ▪  Geometry: Kenya Counties GeoJSON"
     )
 
+
 # ────────────────────────────  NEW PAGE  ────────────────────────────
 #  Competitor Analysis  (Power-BI embeds)
 #  • Paste anywhere ABOVE the PAGE_FUNCS dict in your main file
 #  • Then add one line:  PAGE_FUNCS["Competitor Analysis"] = page_competitor_analysis
 # ─────────────────────────────────────────────────────────────────────
+
 
 def page_competitor_analysis() -> None:
     """
@@ -1914,13 +1895,15 @@ def page_competitor_analysis() -> None:
 
     # ── Simple tab dictionary ----------------------------------------
     TABS = {
-        "📈 Nielsen":      lambda: _dashboard_card("Nielsen Dashboard", NIELSEN_PBI_URL),
-        "🏬 Modern Trade": lambda: _dashboard_card("Modern-Trade Dashboard", MT_PBI_URL),
+        "📈 Nielsen": lambda: _dashboard_card("Nielsen Dashboard", NIELSEN_PBI_URL),
+        "🏬 Modern Trade": lambda: _dashboard_card(
+            "Modern-Trade Dashboard", MT_PBI_URL
+        ),
     }
 
     # ── Active-tab state (uses query param ?tab=) --------------------
     if "comp_active_tab" not in st.session_state:
-        st.session_state.comp_active_tab = list(TABS)[0]          # default first tab
+        st.session_state.comp_active_tab = list(TABS)[0]  # default first tab
     if "tab" in st.query_params and st.query_params["tab"] in TABS:
         st.session_state.comp_active_tab = st.query_params["tab"]
 
@@ -1931,7 +1914,8 @@ def page_competitor_analysis() -> None:
         for tb in TABS:
             cls = (
                 "background:#e5f1f8;border:1px solid #0278b7;"
-                if tb == current else "background:transparent;"
+                if tb == current
+                else "background:transparent;"
             )
             html += (
                 f'<button name="tab" value="{tb}" class="stButton" '
@@ -1941,10 +1925,12 @@ def page_competitor_analysis() -> None:
         st.markdown(f'<form method="get">{html}</form>', unsafe_allow_html=True)
 
     # ── Page header + navbar + content --------------------------------
-    st.markdown("<h2 style='margin-bottom:0.2rem'>Competitor Analysis</h2>",
-                unsafe_allow_html=True)
+    st.markdown(
+        "<h2 style='margin-bottom:0.2rem'>Competitor Analysis</h2>",
+        unsafe_allow_html=True,
+    )
     _render_navbar()
-    TABS[st.session_state.comp_active_tab]()       # draw the chosen report
+    TABS[st.session_state.comp_active_tab]()  # draw the chosen report
 
 
 # ╭───────────────────────────────  NAVIGATION  ─────────────────────╮
